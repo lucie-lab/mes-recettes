@@ -13,6 +13,7 @@
   --boisson: #7EB6D9;     /* myrtille claire */
   --petitdej: #D4AE86;    /* biscuit */
   --toutes: #FFFFFF;
+  --muscle: #B8E0D2;      /* menthe */
 
   --titre: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
   --texte: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
@@ -100,7 +101,29 @@ h1 {
   cursor: pointer;
   transition: transform 0.1s, box-shadow 0.1s;
 }
-.hasard:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--trait); }
+.hasard:active, .bouton:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--trait); }
+
+.bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-family: var(--texte);
+  font-weight: 700;
+  font-size: 0.98rem;
+  padding: 0.7rem 1.15rem;
+  border: 2px solid var(--trait);
+  border-radius: 999px;
+  background: var(--papier);
+  color: var(--encre);
+  box-shadow: var(--ombre);
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.outils .bouton { padding: 0.85rem 1.3rem; }
+.bouton.principal { background: var(--encre); color: var(--papier); }
+.bouton:disabled { cursor: default; }
 
 /* ---------- Onglets façon boîte à fiches ---------- */
 main {
@@ -152,11 +175,36 @@ main {
 }
 
 /* ---------- Filtres ---------- */
+.barre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
 .filtres {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1.25rem;
+}
+
+.tri {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--encre);
+}
+.tri select {
+  font: inherit;
+  padding: 0.35rem 0.7rem;
+  border: 2px solid var(--trait);
+  border-radius: 999px;
+  background: var(--papier);
+  color: var(--encre);
+  cursor: pointer;
 }
 
 .puce {
@@ -173,6 +221,7 @@ main {
   background: var(--encre);
   color: var(--papier);
 }
+.puce-muscle { background: var(--muscle); color: #2B2233; font-weight: 700; }
 
 /* ---------- Cartes ---------- */
 .grille {
@@ -225,6 +274,18 @@ main {
   gap: 0.35rem 0.9rem;
   font-size: 0.9rem;
   color: var(--encre-douce);
+}
+
+.badge-prot {
+  font-weight: 700;
+  color: var(--encre);
+}
+.badge-prot.fort {
+  color: #2B2233;
+  background: var(--muscle);
+  border: 1.5px solid var(--trait);
+  border-radius: 999px;
+  padding: 0 0.5rem;
 }
 
 .etiquettes {
@@ -355,6 +416,103 @@ dialog::backdrop { background: rgb(43 34 51 / 0.55); }
 
 .fiche-corps { padding: 1.25rem 1.5rem 1.75rem; }
 
+.chapo { margin: 0; max-width: 52ch; }
+
+.nutrition {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+.valeur {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--trait);
+  border-radius: 12px;
+  background: var(--muscle);
+  color: #2B2233;
+}
+.valeur + .valeur { background: var(--papier); color: var(--encre); }
+.valeur strong {
+  font-family: var(--titre);
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 1.05;
+}
+.valeur span { font-size: 0.9rem; }
+
+.actions-fiche {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.1rem;
+}
+
+.formulaire { display: grid; gap: 1rem; }
+.champs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1rem;
+}
+.champ {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.champ.large { grid-column: 1 / -1; }
+.champ input, .champ select, .champ textarea {
+  font: inherit;
+  font-weight: 400;
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 2px solid var(--trait);
+  border-radius: 10px;
+  background: var(--papier);
+  color: var(--encre);
+}
+.champ textarea { resize: vertical; line-height: 1.45; }
+.coches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin: 0;
+  padding: 0.7rem 1rem 0.8rem;
+  border: 2px solid var(--trait);
+  border-radius: 10px;
+}
+.coches legend { font-weight: 700; font-size: 0.95rem; padding: 0 0.3rem; }
+.coches label { display: inline-flex; gap: 0.4rem; align-items: center; cursor: pointer; }
+.coches input { accent-color: var(--encre); width: 1.05rem; height: 1.05rem; }
+.formulaire > .bouton { justify-self: start; }
+.erreur-form {
+  margin: 0;
+  padding: 0.7rem 1rem;
+  border: 2px solid var(--trait);
+  border-radius: 10px;
+  background: var(--dessert);
+  color: #2B2233;
+  font-weight: 700;
+}
+.resultat {
+  padding-top: 1rem;
+  border-top: 2px dashed var(--encre-douce);
+}
+.resultat h3 { margin-top: 0; }
+.consignes { padding-left: 1.3rem; margin: 0 0 0.75rem; }
+.consignes li { padding: 0.15rem 0; }
+.resultat pre {
+  max-height: 260px;
+  overflow: auto;
+  margin: 0;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  background: var(--fond);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  white-space: pre;
+}
+
 .fiche-corps h3 {
   font-family: var(--titre);
   font-weight: 800;
@@ -405,7 +563,7 @@ dialog::backdrop { background: rgb(43 34 51 / 0.55); }
 }
 
 .ecran {
-  display: inline-flex;
+  display: flex;
   gap: 0.5rem;
   align-items: center;
   margin-top: 1.25rem;
@@ -428,7 +586,8 @@ dialog::backdrop { background: rgb(43 34 51 / 0.55); }
 @media (max-width: 520px) {
   .entete { padding-top: 2rem; }
   .boite { padding: 0.9rem; }
-  .hasard { flex: 1 1 100%; }
+  .hasard, .outils .bouton { flex: 1 1 100%; }
+  .fiche-corps { padding: 1.1rem 1.1rem 1.5rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

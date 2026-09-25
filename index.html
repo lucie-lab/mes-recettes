@@ -4,11 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mes recettes</title>
+  <meta name="theme-color" content="#E6EEE4">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥕</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23E6EEE4'/><text x='50' y='72' font-size='64' text-anchor='middle'>🥕</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
   <header class="entete">
@@ -17,15 +19,25 @@
 
     <div class="outils">
       <label for="q" class="sr">Rechercher une recette ou un ingrédient</label>
-      <input id="q" type="search" placeholder="Un plat, un ingrédient… « courgette », « chocolat »" autocomplete="off">
+      <input id="q" type="search" placeholder="Un plat, un ingrédient… « poulet », « chocolat »" autocomplete="off">
       <button id="hasard" class="hasard" type="button">🎲 Je ne sais pas quoi manger</button>
+      <button id="ouvrir-ajout" class="bouton" type="button">＋ Ajouter une recette</button>
     </div>
   </header>
 
   <main>
     <nav class="onglets" id="onglets" aria-label="Catégories"></nav>
     <section class="boite">
-      <div class="filtres" id="filtres" aria-label="Filtres"></div>
+      <div class="barre">
+        <div class="filtres" id="filtres" aria-label="Filtres"></div>
+        <label class="tri">Trier
+          <select id="tri">
+            <option value="alpha">par nom</option>
+            <option value="proteines">les plus protéinées d'abord</option>
+            <option value="temps">les plus rapides d'abord</option>
+          </select>
+        </label>
+      </div>
       <div class="grille" id="grille"></div>
       <div class="vide" id="vide" hidden>
         <p>Aucune recette ne correspond. Essaie un autre mot ou retire un filtre.</p>
@@ -43,7 +55,72 @@
 
   <dialog id="fiche" aria-labelledby="fiche-titre"></dialog>
 
-  <script src="recettes.js"></script>
-  <script src="app.js"></script>
+  <dialog id="ajout" aria-labelledby="ajout-titre">
+    <div class="fiche-haut" style="--c: var(--apero)">
+      <button type="button" class="fermer" data-fermer-ajout aria-label="Fermer">✕</button>
+      <h2 id="ajout-titre">Ajouter une recette</h2>
+      <p class="chapo">Remplis la fiche : le site prépare le code, tu n'as plus qu'à le coller dans recettes.js sur GitHub.</p>
+    </div>
+    <div class="fiche-corps formulaire">
+      <div class="champs">
+        <label class="champ large">Nom de la recette
+          <input id="f-titre" type="text" placeholder="Gratin de courgettes"></label>
+        <label class="champ">Emoji
+          <input id="f-emoji" type="text" maxlength="8" placeholder="🍽️"></label>
+        <label class="champ">Catégorie
+          <select id="f-categorie"></select></label>
+        <label class="champ">Difficulté
+          <select id="f-difficulte">
+            <option value="1">Facile</option>
+            <option value="2">Moyen</option>
+            <option value="3">On s'accroche</option>
+          </select></label>
+        <label class="champ">Temps total (min)
+          <input id="f-temps" type="number" min="1" inputmode="numeric"></label>
+        <label class="champ">Portions
+          <input id="f-portions" type="number" min="1" value="2" inputmode="numeric"></label>
+        <label class="champ">Protéines par portion (g)
+          <input id="f-proteines" type="number" min="0" inputmode="numeric" placeholder="facultatif"></label>
+        <label class="champ">Calories par portion
+          <input id="f-kcal" type="number" min="0" inputmode="numeric" placeholder="facultatif"></label>
+      </div>
+
+      <fieldset class="coches">
+        <legend>Régime</legend>
+        <label><input type="checkbox" class="f-tag" value="végétarien"> végétarien</label>
+        <label><input type="checkbox" class="f-tag" value="vegan"> vegan</label>
+        <label><input type="checkbox" class="f-tag" value="sans gluten"> sans gluten</label>
+      </fieldset>
+
+      <label class="champ">Autres tags, séparés par des virgules
+        <input id="f-tags" type="text" placeholder="batch cooking, été"></label>
+      <label class="champ">Ingrédients, un par ligne
+        <textarea id="f-ingredients" rows="6" placeholder="200 g de farine&#10;3 œufs&#10;2 gousses d'ail"></textarea></label>
+      <label class="champ">Étapes, une par ligne
+        <textarea id="f-etapes" rows="6" placeholder="Préchauffer le four à 180 °C.&#10;Mélanger la farine et les œufs."></textarea></label>
+      <label class="champ">Astuce (facultatif)
+        <textarea id="f-astuce" rows="2"></textarea></label>
+
+      <p class="erreur-form" id="f-erreur" role="alert" hidden></p>
+      <button type="button" class="bouton principal" id="f-generer">Générer le code</button>
+
+      <div id="f-resultat" class="resultat" hidden>
+        <h3>Ton code est prêt</h3>
+        <ol class="consignes">
+          <li>Copie le code.</li>
+          <li>Ouvre recettes.js sur GitHub : le lien ouvre directement l'éditeur.</li>
+          <li>Colle-le juste au-dessus de la ligne « ↑ Colle tes nouvelles recettes… », tout en bas, puis clique sur Commit changes.</li>
+        </ol>
+        <pre id="f-code"></pre>
+        <div class="actions-fiche">
+          <button type="button" class="bouton principal" id="f-copier">📋 Copier le code</button>
+          <a class="bouton" id="f-github" target="_blank" rel="noopener">Ouvrir recettes.js sur GitHub</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="recettes.js?v=2"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
