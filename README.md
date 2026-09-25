@@ -43,3 +43,6 @@ Si le site affiche « Le fichier recettes.js contient une erreur », c'est presq
 ## Tester en local
 
 Il suffit d'ouvrir `index.html` dans ton navigateur par un double-clic.
+
+
+
