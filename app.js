@@ -23,6 +23,12 @@
     "Boisson":   { couleur: "var(--boisson)",  emoji: "🍹" },
     "Petit-déj": { couleur: "var(--petitdej)", emoji: "🥐" }
   };
+  // Les tags connus passent en premier dans les filtres, avec leur emoji
+  const ORDRE_TAGS = ["volaille", "poisson", "viande", "végétarien", "vegan", "sans gluten"];
+  const EMOJIS_TAGS = {
+    "volaille": "🍗", "poisson": "🐟", "viande": "🥩",
+    "végétarien": "🌱", "vegan": "🌿", "sans gluten": "🌾"
+  };
   const TOUTES = "Toutes";
   const RAPIDE = "__rapide";
   const FAVORIS = "__favoris";
@@ -133,19 +139,22 @@
       const nb = c === TOUTES ? RECETTES.length : RECETTES.filter((r) => r.categorie === c).length;
       const emoji = c === TOUTES ? "📚" : CATEGORIES[c].emoji;
       const coul = c === TOUTES ? "var(--toutes)" : couleur(c);
-      return `<button type="button" class="onglet" style="--c:${coul}" data-cat="${esc(c)}"
+      const texte = c === TOUTES ? "var(--encre)" : "#2B2233";
+      return `<button type="button" class="onglet" style="--c:${coul};--t:${texte}" data-cat="${esc(c)}"
         aria-pressed="${etat.cat === c}">${emoji} ${esc(c)}<span class="nb">${nb}</span></button>`;
     }).join("");
     $(".boite").style.setProperty("--c-active", etat.cat === TOUTES ? "var(--toutes)" : couleur(etat.cat));
   }
 
   function afficherFiltres() {
-    const tags = [...new Set(RECETTES.flatMap((r) => r.tags || []))].sort((a, b) => a.localeCompare(b, "fr"));
+    const rang = (t) => { const i = ORDRE_TAGS.indexOf(t); return i === -1 ? 99 : i; };
+    const tags = [...new Set(RECETTES.flatMap((r) => r.tags || []))]
+      .sort((a, b) => rang(a) - rang(b) || a.localeCompare(b, "fr"));
     const puces = [
       ...(RECETTES.some(estProteinee) ? [{ id: PROTEINES, label: "💪 Riche en protéines", classe: "puce-muscle" }] : []),
       { id: FAVORIS, label: "★ Mes favoris" },
       { id: RAPIDE, label: "⏱ Rapide (30 min max)" },
-      ...tags.map((t) => ({ id: t, label: t }))
+      ...tags.map((t) => ({ id: t, label: EMOJIS_TAGS[t] ? `${EMOJIS_TAGS[t]} ${t}` : t }))
     ];
     $("#filtres").innerHTML = puces.map((p) =>
       `<button type="button" class="puce ${p.classe || ""}" data-filtre="${esc(p.id)}"
