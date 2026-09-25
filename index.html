@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mes recettes</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥕</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="entete">
+    <h1>Mes recettes</h1>
+    <p class="compteur" id="compteur"></p>
+
+    <div class="outils">
+      <label for="q" class="sr">Rechercher une recette ou un ingrédient</label>
+      <input id="q" type="search" placeholder="Un plat, un ingrédient… « courgette », « chocolat »" autocomplete="off">
+      <button id="hasard" class="hasard" type="button">🎲 Je ne sais pas quoi manger</button>
+    </div>
+  </header>
+
+  <main>
+    <nav class="onglets" id="onglets" aria-label="Catégories"></nav>
+    <section class="boite">
+      <div class="filtres" id="filtres" aria-label="Filtres"></div>
+      <div class="grille" id="grille"></div>
+      <div class="vide" id="vide" hidden>
+        <p>Aucune recette ne correspond. Essaie un autre mot ou retire un filtre.</p>
+        <button type="button" id="reinit" class="bouton-texte">Tout réinitialiser</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="roulette" id="roulette" hidden aria-live="polite">
+    <div class="roulette-carte">
+      <span class="roulette-emoji" id="roulette-emoji"></span>
+      <span class="roulette-titre" id="roulette-titre"></span>
+    </div>
+  </div>
+
+  <dialog id="fiche" aria-labelledby="fiche-titre"></dialog>
+
+  <script src="recettes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
