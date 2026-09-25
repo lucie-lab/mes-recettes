@@ -94,6 +94,50 @@ const RECETTES = [
     ],
     astuce: "Ajouter 40g de tomates séchées avec l'ail pour une version toscane. Un zeste de citron juste avant de servir réveille toute la sauce. Pour alléger, remplacer la moitié de la crème par du skyr (à ajouter hors du feu)."
   },
+
+    {
+    id: "soupe-de-pommes-de-terre",
+    titre: "Soupe de pommes de terre",
+    emoji: "🥔",
+    categorie: "Plat",
+    tags: [],
+    temps: 50,
+    difficulte: 1,
+    portions: 6,
+    proteines: 22,
+    kcal: 680,
+    ingredients: [
+      { qte: 200, unite: "g", nom: "lardons fumés" },
+      { qte: 40, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "", nom: "oignon jaune" },
+      { qte: 3, unite: "gousses", nom: "ail" },
+      { qte: 1, unite: "c. à café", nom: "paprika" },
+      { qte: 0.5, unite: "c. à café", nom: "épices chili con carne" },
+      { qte: 0.5, unite: "", nom: "cube de bouillon de volaille émietté" },
+      { qte: 35, unite: "g", nom: "farine" },
+      { qte: 25, unite: "cl", nom: "crème liquide entière" },
+      { qte: 50, unite: "cl", nom: "lait entier" },
+      { qte: 80, unite: "cl", nom: "bouillon de volaille (2 cubes)" },
+      { qte: 1.2, unite: "kg", nom: "pommes de terre à chair farineuse" },
+      { qte: 200, unite: "g", nom: "cheddar affiné râpé" },
+      { qte: 60, unite: "g", nom: "crème fraîche épaisse, plus un peu pour le service" },
+      { qte: 1, unite: "", nom: "petit bouquet de ciboulette" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "Dans une cocotte en fonte (ou une grande casserole ou un faitout), faire dorer les lardons à feu moyen. Les réserver en laissant un peu de gras dans la cocotte.",
+      "Ajouter le beurre, puis l'oignon coupé en dés. Cuire 5 minutes à feu moyen-doux jusqu'à ce qu'il soit transparent.",
+      "Ajouter l'ail haché, le paprika, les épices chili, le poivre et le demi-cube de bouillon émietté. Remuer 1 minute.",
+      "Ajouter la farine et remuer 1 à 2 minutes pour qu'elle perde son goût cru.",
+      "Verser le bouillon petit à petit en fouettant pour éviter les grumeaux.",
+      "Ajouter les pommes de terre coupées en dés d'environ 2 cm. Porter à ébullition, puis baisser à feu moyen-doux (garder un frémissement). Couvrir et cuire 15 à 20 minutes, jusqu'à ce qu'elles s'écrasent facilement à la fourchette.",
+      "Baisser à feu doux, verser la crème liquide et le lait, puis réchauffer 3 à 4 minutes en remuant (sans faire bouillir).",
+      "Hors du feu, ajouter le cheddar et la crème fraîche, puis écraser grossièrement au presse-purée.",
+      "Ajouter les lardons, en gardant une poignée pour le service. Goûter, et saler seulement maintenant si besoin.",
+      "Servir avec le reste des lardons, la ciboulette ciselée et une petite cuillère de crème fraîche."
+    ],
+    astuce: "Pommes de terre farineuses (type Bintje) donnent une soupe onctueuse. Prendre le cheddar le plus affiné possible (pour le caractère)."
+  },
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
