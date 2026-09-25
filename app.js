@@ -89,6 +89,25 @@
     setTimeout(() => { bouton.textContent = original; bouton.disabled = false; }, 1800);
   }
 
+  // ---------- Tags automatiques : volaille, poisson, viande ----------
+  // Le site les déduit des ingrédients : pas besoin de les écrire à la main.
+  // Les bouillons et fonds sont ignorés (un bouillon de volaille ne fait pas un plat de volaille).
+  const FAMILLES = {
+    "volaille": ["poulet", "dinde", "canard", "pintade", "caille", "volaille", "magret"],
+    "poisson": ["thon", "saumon", "cabillaud", "colin", "merlu", "lieu", "sardine", "maquereau", "truite",
+      "dorade", "sole", "poisson", "crevette", "gambas", "moule", "calamar", "surimi", "anchois", "haddock"],
+    "viande": ["boeuf", "porc", "veau", "agneau", "lardon", "bacon", "jambon", "chorizo", "saucisse",
+      "merguez", "steak", "viande", "poitrine fumee", "pancetta", "coppa", "hache"]
+  };
+  RECETTES.forEach((r) => {
+    r.tags = Array.isArray(r.tags) ? [...r.tags] : [];
+    const texte = (r.ingredients || []).map((i) => norm(i.nom || ""))
+      .filter((n) => !/\b(bouillon|fond)\b/.test(n)).join(" | ");
+    for (const [tag, mots] of Object.entries(FAMILLES)) {
+      if (!r.tags.includes(tag) && new RegExp(`\\b(${mots.join("|")})s?\\b`).test(texte)) r.tags.push(tag);
+    }
+  });
+
   // ---------- Favoris (gardés dans le navigateur) ----------
   let favoris;
   try { favoris = new Set(JSON.parse(localStorage.getItem("favoris") || "[]")); }

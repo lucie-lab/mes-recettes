@@ -151,7 +151,7 @@ main {
   border-bottom: none;
   border-radius: 12px 12px 0 0;
   background: var(--c, var(--papier));
-  color: #2B2233;
+  color: var(--t, #2B2233);
   cursor: pointer;
   transform: translateY(6px);
   transition: transform 0.15s;
