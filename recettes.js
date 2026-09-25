@@ -57,6 +57,44 @@ const RECETTES = [
     ],
     astuce: "Une cuillère à café de café soluble dissoute dans le chocolat fondu pour que le chocolat paraisse plus profond. C'est le plus connu des secrets de pâtissier.\n\nQuelques grains de fleur de sel sur le dessus à la sortie du four."
   },
+
+
+  {
+    id: "poulet-cremeux-ail-parmesan-champignons-et-epinards",
+    titre: "Poulet crémeux ail-parmesan, champignons et épinards",
+    emoji: "🧄",
+    categorie: "Plat",
+    tags: [],
+    temps: 30,
+    difficulte: 1,
+    portions: 2,
+    proteines: 70,
+    kcal: 900,
+    ingredients: [
+      { qte: 400, unite: "g", nom: "blancs de poulet" },
+      { qte: 1, unite: "c. à café", nom: "paprika fumé" },
+      { qte: 1, unite: "c. à café", nom: "sel" },
+      { qte: 0.5, unite: "c. à café", nom: "poivre noir" },
+      { qte: 1, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 200, unite: "g", nom: "champignons de Paris émincés" },
+      { qte: 3, unite: "gousses", nom: "ail hachées" },
+      { qte: 150, unite: "ml", nom: "crème fraîche épaisse" },
+      { qte: 50, unite: "g", nom: "parmesan râpé" },
+      { qte: 100, unite: "g", nom: "pousses d'épinards" },
+      { qte: 160, unite: "g", nom: "pâtes (tagliatelles ou penne)" }
+    ],
+    etapes: [
+      "Mettre l'eau des pâtes à chauffer. Couper les blancs de poulet en deux dans l'épaisseur et les assaisonner avec le paprika, le sel et le poivre.",
+      "Chauffer l'huile à feu vif dans une grande poêle et dorer le poulet 4 à 5 minutes par face sans le bouger, jusqu'à ce qu'il ne soit plus rosé à cœur. Réserver sur une assiette.",
+      "Lancer la cuisson des pâtes dans l'eau salée. Garder une tasse d'eau de cuisson avant d'égoutter.",
+      "Dans la même poêle, sans la laver, faire dorer les champignons à feu vif en remuant peu, 5 à 6 minutes. Ajouter l'ail et cuire 1 minute.",
+      "Verser un peu d'eau des pâtes pour décoller les sucs du fond, puis ajouter la crème et laisser épaissir 3 minutes à feu doux.",
+      "Hors du feu, ajouter le parmesan en remuant jusqu'à ce qu'il fonde, puis les épinards, qui tombent en une minute.",
+      "Couper le poulet en tranches et le remettre dans la sauce avec son jus, puis ajouter les pâtes égouttées. Mélanger 1 minute à feu doux, avec un peu d'eau des pâtes si la sauce est trop épaisse."
+    ],
+    astuce: "Ajouter 40g de tomates séchées avec l'ail pour une version toscane. Un zeste de citron juste avant de servir réveille toute la sauce. Pour alléger, remplacer la moitié de la crème par du skyr (à ajouter hors du feu)."
+  },
+  
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
 ];
