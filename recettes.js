@@ -138,7 +138,46 @@ const RECETTES = [
     ],
     astuce: "Pommes de terre farineuses (type Bintje) donnent une soupe onctueuse. Prendre le cheddar le plus affiné possible (pour le caractère)."
   },
-  
+
+    {
+    id: "shakshuka-du-lendemain-d-entrainement",
+    titre: "Shakshuka du lendemain d'entraînement",
+    emoji: "🍳",
+    categorie: "Plat",
+    tags: ["poisson"],
+    temps: 35,
+    difficulte: 1,
+    portions: 2,
+    proteines: 40,
+    kcal: 680,
+    ingredients: [
+      { qte: 4, unite: "", nom: "tomates bien mûres" },
+      { qte: 1, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 1, unite: "", nom: "poivron rouge" },
+      { qte: 1, unite: "", nom: "poivron jaune" },
+      { qte: 1, unite: "", nom: "oignon" },
+      { qte: 2, unite: "gousses", nom: "ail" },
+      { qte: 2, unite: "c. à café", nom: "huile d'olive" },
+      { qte: 1, unite: "c. à café", nom: "cumin" },
+      { qte: 1, unite: "c. à café", nom: "paprika" },
+      { qte: 1, unite: "pincée", nom: "piment (facultatif)" },
+      { qte: 80, unite: "g", nom: "thon au naturel égoutté" },
+      { qte: 4, unite: "", nom: "œufs" },
+      { qte: "", unite: "", nom: "Sel et poivre" },
+      { qte: 1, unite: "", nom: "petit bouquet de persil ou de coriandre" },
+      { qte: 300, unite: "g", nom: "pain complet" }
+    ],
+    etapes: [
+      "Couper les tomates en morceaux, émincer l'oignon, couper les poivrons en petits cubes et hacher l'ail.",
+      "Chauffer l'huile dans une grande poêle à feu moyen. Faire revenir l'oignon et les poivrons 8 minutes (jusqu'à ce qu'ils ramollissent).",
+      "Ajouter l'ail, le cumin, le paprika et le piment. Remuer 1 minute.",
+      "Ajouter les tomates et le concentré de tomate, saler et poivrer. Laisser mijoter 10 minutes (jusqu'à obtenir une sauce épaisse et fondante).",
+      "Incorporer le thon émietté.",
+      "Former quatre creux dans la sauce et y casser les œufs. Saler légèrement, couvrir et cuire 5 à 7 minutes à feu doux (le jaune doit être encore coulant).",
+      "Parsemer de persil ou de coriandre et servir directement dans la poêle, avec le pain complet grillé."
+    ],
+    astuce: "Des tomates fades ? Remplacer-les par une boîte de 400 g de tomates concassées. 50 g de feta émiettée sur le dessus ajoutent environ 4 g de protéines par portion."
+  },  
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
 ];
