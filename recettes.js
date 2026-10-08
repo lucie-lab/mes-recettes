@@ -178,6 +178,54 @@ const RECETTES = [
     ],
     astuce: "Des tomates fades ? Remplacer-les par une boîte de 400 g de tomates concassées. 50 g de feta émiettée sur le dessus ajoutent environ 4 g de protéines par portion."
   },  
+
+    {
+    id: "dinde-a-l-estragon-sauce-moutarde-et-legumes-mijotes-a-la-tomate",
+    titre: "Dinde à l'estragon, sauce moutarde et légumes mijotés à la tomate",
+    emoji: "🦃",
+    categorie: "Plat",
+    tags: [],
+    temps: 40,
+    difficulte: 1,
+    portions: 2,
+    proteines: 47,
+    kcal: 850,
+    ingredients: [
+      { qte: 2, unite: "", nom: "filets de dinde (environ 300 g)" },
+      { qte: 500, unite: "g", nom: "petites pommes de terre (grenaille)" },
+      { qte: 200, unite: "g", nom: "haricots verts" },
+      { qte: 1, unite: "", nom: "oignon jaune" },
+      { qte: 2, unite: "", nom: "échalotes" },
+      { qte: 2, unite: "gousses", nom: "ail" },
+      { qte: 2, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 10, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 1, unite: "boîte", nom: "tomates concassées (400 g)" },
+      { qte: 0.5, unite: "", nom: "cube de bouillon de volaille" },
+      { qte: 30, unite: "cl", nom: "eau chaude" },
+      { qte: 1, unite: "feuille", nom: "laurier" },
+      { qte: 1, unite: "pincée", nom: "sucre" },
+      { qte: 5, unite: "cl", nom: "vin blanc sec (facultatif)" },
+      { qte: 1, unite: "c. à soupe", nom: "moutarde de Dijon" },
+      { qte: 15, unite: "cl", nom: "crème liquide entière" },
+      { qte: 1, unite: "", nom: "petite poignée d'estragon frais (une dizaine de feuilles)" },
+      { qte: 0.5, unite: "", nom: "citron" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "Émincer l'oignon et une échalote, hacher l'ail. Couper les plus grosses pommes de terre en deux et équeuter les haricots verts. Dissoudre le demi-cube de bouillon dans l'eau chaude.",
+      "Dans une sauteuse, chauffer 1 c. à soupe d'huile à feu moyen et faire revenir l'oignon, l'échalote et l'ail 3 à 4 minutes.",
+      "Ajouter le concentré de tomate et remuer 1 minute. Ajouter les tomates concassées, le bouillon, le laurier et le sucre. Poivrer et saler légèrement.",
+      "Ajouter les pommes de terre, couvrir et cuire 15 minutes à feu moyen-doux.",
+      "Ajouter les haricots verts et cuire encore 10 minutes à découvert, pour que la sauce épaississe. Retirer le laurier.",
+      "Pendant ce temps, placer les filets de dinde entre deux feuilles de papier cuisson et les aplatir avec le fond d'une casserole, jusqu'à environ 1 cm d'épaisseur. Ciseler la seconde échalote et hacher l'estragon.",
+      "Dans une poêle, chauffer le reste de l'huile avec le beurre à feu moyen-vif. Dorer la dinde 3 minutes par face, jusqu'à ce qu'elle ne soit plus rosée à cœur. Saler, poivrer et réserver sur une assiette.",
+      "Baisser le feu et faire suer l'échalote 1 minute dans la même poêle, puis déglacer au vin blanc, ou avec 3 c. à soupe d'eau, en grattant bien les sucs.",
+      "Ajouter la moutarde, la crème et la moitié de l'estragon. Laisser frémir 2 à 3 minutes à feu doux, jusqu'à ce que la sauce nappe la cuillère.",
+      "Remettre la dinde et son jus dans la sauce 1 minute pour la réchauffer. Hors du feu, ajouter le reste de l'estragon et quelques gouttes de jus de citron. Goûter et ajuster le sel et le poivre.",
+      "Servir la dinde nappée de sauce, avec les légumes à la tomate."
+    ]
+  },
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
 ];
