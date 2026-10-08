@@ -227,6 +227,60 @@ const RECETTES = [
     ],
     astuce: "Pour plus de caractère, ajoute 1 c. à café de moutarde à l'ancienne en même temps que la moutarde de Dijon. Ne laisse pas la dinde mijoter longtemps dans la sauce, sinon elle sèche (une minute suffit)."
   },
+
+  {
+    id: "boeuf-mijote-d-automne-et-puree-a-l-ail-roti",
+    titre: "Bœuf mijoté d'automne et purée à l'ail rôti",
+    emoji: "🍂",
+    categorie: "Plat",
+    tags: [],
+    temps: 195,
+    difficulte: 2,
+    portions: 2,
+    proteines: 58,
+    kcal: 1200,
+    ingredients: [
+      { qte: 500, unite: "g", nom: "paleron de bœuf (en un morceau)" },
+      { qte: 1, unite: "", nom: "oignon jaune" },
+      { qte: 1, unite: "", nom: "branche de céleri" },
+      { qte: 2, unite: "", nom: "grosses carottes" },
+      { qte: 250, unite: "g", nom: "petites pommes de terre (facultatif)" },
+      { qte: 3, unite: "gousses", nom: "ail" },
+      { qte: 1, unite: "c. à soupe", nom: "huile" },
+      { qte: 1, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 15, unite: "cl", nom: "vin rouge" },
+      { qte: 50, unite: "cl", nom: "bouillon de bœuf (1 cube)" },
+      { qte: 1, unite: "c. à soupe", nom: "fond de veau en poudre" },
+      { qte: 1, unite: "c. à soupe", nom: "sauce Worcestershire" },
+      { qte: 1, unite: "feuille", nom: "laurier" },
+      { qte: 1, unite: "", nom: "branche de romarin" },
+      { qte: 5, unite: "", nom: "brins de thym" },
+      { qte: 45, unite: "g", nom: "beurre" },
+      { qte: 500, unite: "g", nom: "pommes de terre à chair farineuse" },
+      { qte: 1, unite: "", nom: "tête d'ail" },
+      { qte: 10, unite: "cl", nom: "crème liquide entière" },
+      { qte: 1, unite: "pincée", nom: "muscade" },
+      { qte: "", unite: "", nom: "Persil frais" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "Sortir la viande du frigo 30 minutes avant, puis la saler et la poivrer de tous les côtés. Émincer l'oignon, couper le céleri en dés et les carottes en gros tronçons, hacher les 3 gousses d'ail.",
+      "Dans un faitout, chauffer l'huile à feu vif et saisir la viande 3 à 4 minutes sur chaque face, jusqu'à ce qu'elle soit bien dorée. Réserver sur une assiette.",
+      "Baisser à feu moyen, faire revenir l'oignon et le céleri 8 minutes jusqu'à ce qu'ils caramélisent, puis ajouter l'ail haché 1 minute.",
+      "Ajouter le concentré de tomate et remuer 1 minute. Verser le vin rouge en grattant bien les sucs du fond, et laisser réduire de moitié.",
+      "Ajouter le bouillon, le fond de veau, la sauce Worcestershire et le laurier. Remettre la viande et son jus, avec le romarin et 3 brins de thym. Le liquide doit arriver aux deux tiers de la viande : compléter avec un peu d'eau si besoin.",
+      "Porter à frémissement, couvrir et cuire 1 h 30 à feu très doux, en retournant la viande à mi-cuisson.",
+      "Ajouter les carottes, les petites pommes de terre et 15 g de beurre. Couvrir et cuire encore 1 heure, jusqu'à ce que la viande se défasse à la fourchette.",
+      "45 minutes avant la fin, préchauffer le four à 180 °C. Couper le haut de la tête d'ail, l'arroser d'un filet d'huile, l'emballer dans du papier aluminium et l'enfourner 35 minutes.",
+      "Pendant ce temps, mettre les pommes de terre à chair farineuse épluchées et coupées en morceaux dans une casserole d'eau froide salée. Porter à ébullition et cuire 20 minutes, jusqu'à ce qu'elles soient tendres.",
+      "Dans une petite casserole, chauffer la crème avec 30 g de beurre et 2 brins de thym, sans faire bouillir. Retirer le thym.",
+      "Égoutter les pommes de terre et les remettre 1 minute sur le feu pour les sécher. Presser les gousses d'ail rôti dessus, écraser au presse-purée, puis ajouter la crème chaude petit à petit. Saler, poivrer et ajouter la muscade.",
+      "Retirer les herbes et le laurier du faitout. Si la sauce est trop liquide, sortir la viande et les légumes et la faire réduire 5 à 10 minutes à découvert. Goûter et ajuster le sel.",
+      "Servir la purée en fond d'assiette, avec la viande en gros morceaux, les légumes et beaucoup de sauce. Parsemer de persil."
+    ],
+    astuce: "Comme tous les plats mijotés, il est encore meilleur le lendemain. Se garde 3 jours au frigo ; réchauffer la purée avec un peu de lait. \nSans vin, remplacer par du bouillon et 1 c. à café de vinaigre balsamique."
+  },
+  
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
 ];
