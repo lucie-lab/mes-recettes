@@ -178,9 +178,9 @@ const RECETTES = [
     ],
     astuce: "Des tomates fades ? Remplacer-les par une boîte de 400 g de tomates concassées. 50 g de feta émiettée sur le dessus ajoutent environ 4 g de protéines par portion."
   },  
-
-    {
-    id: "dinde-a-l-estragon-sauce-moutarde-et-legumes-mijotes-a-la-tomate",
+  
+  {
+    id: "dinde-a-l-estragon-sauce-moutarde-et-legumes-mijotes-a-la-tomate-2",
     titre: "Dinde à l'estragon, sauce moutarde et légumes mijotés à la tomate",
     emoji: "🦃",
     categorie: "Plat",
@@ -219,12 +219,13 @@ const RECETTES = [
       "Ajouter les pommes de terre, couvrir et cuire 15 minutes à feu moyen-doux.",
       "Ajouter les haricots verts et cuire encore 10 minutes à découvert, pour que la sauce épaississe. Retirer le laurier.",
       "Pendant ce temps, placer les filets de dinde entre deux feuilles de papier cuisson et les aplatir avec le fond d'une casserole, jusqu'à environ 1 cm d'épaisseur. Ciseler la seconde échalote et hacher l'estragon.",
-      "Dans une poêle, chauffer le reste de l'huile avec le beurre à feu moyen-vif. Dorer la dinde 3 minutes par face, jusqu'à ce qu'elle ne soit plus rosée à cœur. Saler, poivrer et réserver sur une assiette.",
+      "Dans une poêle, chauffer le reste de l'huile avec le beurre à feu moyen-vif. Dorer la dinde 3 minutes par face (jusqu'à ce qu'elle ne soit plus rosée à cœur). Saler, poivrer et réserver sur une assiette.",
       "Baisser le feu et faire suer l'échalote 1 minute dans la même poêle, puis déglacer au vin blanc, ou avec 3 c. à soupe d'eau, en grattant bien les sucs.",
       "Ajouter la moutarde, la crème et la moitié de l'estragon. Laisser frémir 2 à 3 minutes à feu doux, jusqu'à ce que la sauce nappe la cuillère.",
       "Remettre la dinde et son jus dans la sauce 1 minute pour la réchauffer. Hors du feu, ajouter le reste de l'estragon et quelques gouttes de jus de citron. Goûter et ajuster le sel et le poivre.",
       "Servir la dinde nappée de sauce, avec les légumes à la tomate."
-    ]
+    ],
+    astuce: "Pour plus de caractère, ajoute 1 c. à café de moutarde à l'ancienne en même temps que la moutarde de Dijon. Ne laisse pas la dinde mijoter longtemps dans la sauce, sinon elle sèche (une minute suffit)."
   },
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
