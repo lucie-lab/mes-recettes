@@ -215,8 +215,8 @@ const RECETTES = [
     etapes: [
       "Émincer l'oignon et une échalote, hacher l'ail. Couper les plus grosses pommes de terre en deux et équeuter les haricots verts. Dissoudre le demi-cube de bouillon dans l'eau chaude.",
       "Dans une sauteuse, chauffer 1 c. à soupe d'huile à feu moyen et faire revenir l'oignon, l'échalote et l'ail 3 à 4 minutes.",
-      "Ajouter le concentré de tomate et remuer 1 minute. Ajouter les tomates concassées, le bouillon, le laurier et le sucre. Poivrer et saler légèrement.",
-      "Ajouter les pommes de terre, couvrir et cuire 15 minutes à feu moyen-doux.",
+          "Ajouter le concentré de tomate et remuer 1 minute. Verser le bouillon, ajouter les pommes de terre et le laurier. Couvrir et cuire 15 minutes à feu moyen, jusqu'à ce que les pommes de terre soient presque tendres.",
+      "Ajouter les tomates concassées et le sucre. Poivrer et saler légèrement.",
       "Ajouter les haricots verts et cuire encore 10 minutes à découvert, pour que la sauce épaississe. Retirer le laurier.",
       "Pendant ce temps, placer les filets de dinde entre deux feuilles de papier cuisson et les aplatir avec le fond d'une casserole, jusqu'à environ 1 cm d'épaisseur. Ciseler la seconde échalote et hacher l'estragon.",
       "Dans une poêle, chauffer le reste de l'huile avec le beurre à feu moyen-vif. Dorer la dinde 3 minutes par face (jusqu'à ce qu'elle ne soit plus rosée à cœur). Saler, poivrer et réserver sur une assiette.",
