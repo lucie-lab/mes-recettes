@@ -280,6 +280,59 @@ const RECETTES = [
     ],
     astuce: "Comme tous les plats mijotés, il est encore meilleur le lendemain. Se garde 3 jours au frigo ; réchauffer la purée avec un peu de lait. \nSans vin, remplacer par du bouillon et 1 c. à café de vinaigre balsamique."
   },
+
+  {
+    id: "lasagnes-vegetariennes-aux-lentilles-champignons-et-ricotta-epinards",
+    titre: "Lasagnes végétariennes aux lentilles, champignons et ricotta-épinards",
+    emoji: "🍅",
+    categorie: "Plat",
+    tags: ["végétarien"],
+    temps: 110,
+    difficulte: 2,
+    portions: 4,
+    proteines: 40,
+    kcal: 700,
+    ingredients: [
+      { qte: 180, unite: "g", nom: "lentilles vertes" },
+      { qte: 2, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 250, unite: "g", nom: "champignons de Paris" },
+      { qte: 1, unite: "", nom: "oignon" },
+      { qte: 1, unite: "", nom: "carotte" },
+      { qte: 2, unite: "gousses", nom: "ail" },
+      { qte: 1.5, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 50, unite: "cl", nom: "coulis de tomate (passata)" },
+      { qte: 15, unite: "cl", nom: "bouillon de légumes" },
+      { qte: 1, unite: "c. à soupe", nom: "sauce soja" },
+      { qte: 1, unite: "c. à café", nom: "origan séché" },
+      { qte: 0.5, unite: "c. à café", nom: "sel" },
+      { qte: 200, unite: "g", nom: "épinards frais" },
+      { qte: 250, unite: "g", nom: "ricotta" },
+      { qte: 1, unite: "", nom: "œuf" },
+      { qte: 50, unite: "g", nom: "parmesan ou grana végétarien râpé" },
+      { qte: 1, unite: "pincée", nom: "noix de muscade" },
+      { qte: 0.5, unite: "", nom: "citron (zeste)" },
+      { qte: 170, unite: "g", nom: "feuilles de lasagne sans précuisson" },
+      { qte: 1, unite: "", nom: "boule de mozzarella (125 g)" },
+      { qte: "", unite: "", nom: "Poivre" }
+    ],
+    etapes: [
+      "Rincer les lentilles et les cuire 15 minutes dans un grand volume d'eau non salée (elles doivent rester un peu fermes). Égoutter.",
+      "Pendant ce temps, hacher finement les champignons et l'oignon, couper la carotte en petits dés et hacher l'ail.",
+      "Dans une sauteuse, chauffer 1 c. à soupe d'huile à feu vif et faire dorer les champignons 8 minutes en remuant peu jusqu'à ce que leur eau soit évaporée et qu'ils soient bien colorés. Réserver.",
+      "Baisser à feu moyen, ajouter le reste de l'huile, l'oignon et la carotte, cuire 5 minutes.",
+      "Ajouter l'ail et le concentré de tomate, remuer 1 minute. Remettre les champignons, puis ajouter le coulis, le bouillon, la sauce soja, l'origan, le sel et les lentilles. Laisser mijoter 20 minutes. La sauce doit rester un peu liquide car les feuilles de lasagne vont absorber ce jus en cuisant.",
+      "Faire tomber les épinards 2 minutes à la poêle, les presser très fort pour retirer l'eau, puis les hacher. Les mélanger avec la ricotta, l'œuf, la moitié du parmesan, la muscade, le zeste de citron, du sel et du poivre.",
+      "Préchauffer le four à 180 °C. Égoutter la mozzarella, la déchirer en morceaux et la sécher sur du papier absorbant.",
+      "Si le moule est à charnière, envelopper le dessous et le bas des côtés de papier aluminium et le poser sur une plaque, pour éviter les fuites.",
+      "Monter les lasagnes : une fine couche de bolognaise, une couche de feuilles de lasagne cassées pour suivre la forme du moule, de la bolognaise, puis de la crème ricotta-épinards. Répéter jusqu'à avoir 3 couches de pâtes. Terminer par de la bolognaise, la mozzarella et le reste du parmesan.",
+      "Couvrir de papier aluminium et enfourner 25 minutes. Retirer l'aluminium et laisser gratiner encore 15 à 20 minutes.",
+      "Laisser reposer 15 minutes avant de couper : les couches se tiennent et les parts sont nettes."
+    ],
+    astuce: "Pour un moule rond de 24 cm ou un plat rectangulaire d'environ 20 × 25 cm. Le parmesan classique est fabriqué avec de la présure animale (pour une version strictement végétarienne choisir un grana portant la mention végétarien). Se garde 3 jours au frigo et se réchauffe très bien."
+  },
+
+
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
