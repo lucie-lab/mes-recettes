@@ -333,6 +333,55 @@ const RECETTES = [
 
 
 
+    {
+    id: "boeuf-bourguignon",
+    titre: "Bœuf bourguignon",
+    emoji: "🍷",
+    categorie: "Plat",
+    tags: [],
+    temps: 270,
+    difficulte: 2,
+    portions: 4,
+    proteines: 57,
+    kcal: 750,
+    ingredients: [
+      { qte: 1, unite: "kg", nom: "bœuf à mijoter (joue, paleron ou jarret)" },
+      { qte: 75, unite: "cl", nom: "vin rouge (Bourgogne de préférence)" },
+      { qte: 1, unite: "", nom: "oignon" },
+      { qte: 3, unite: "", nom: "clous de girofle" },
+      { qte: 3, unite: "gousses", nom: "ail" },
+      { qte: 3, unite: "", nom: "carottes" },
+      { qte: 4, unite: "", nom: "brins de thym" },
+      { qte: 2, unite: "feuilles", nom: "laurier" },
+      { qte: 200, unite: "g", nom: "lard fumé (poitrine fumée en morceau)" },
+      { qte: 2, unite: "c. à soupe", nom: "huile" },
+      { qte: 2, unite: "c. à soupe", nom: "farine" },
+      { qte: 1, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 50, unite: "cl", nom: "bouillon de bœuf (à hauteur)" },
+      { qte: 15, unite: "", nom: "oignons grelots" },
+      { qte: 250, unite: "g", nom: "champignons de Paris" },
+      { qte: 30, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "pincée", nom: "sucre" },
+      { qte: 1, unite: "", nom: "carré de chocolat noir à 70 % minimum" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "La veille, couper la viande en gros cubes d'environ 5 cm. Éplucher les carottes et les couper en rondelles épaisses, écraser l'ail et piquer l'oignon avec les clous de girofle. Mettre le tout dans un grand récipient avec le thym et le laurier, couvrir de vin et laisser mariner 12 heures au frigo.",
+      "Le jour même, égoutter la viande et les légumes, et filtrer la marinade au chinois ou dans une passoire fine en la gardant. Éponger soigneusement la viande avec du papier absorbant.",
+      "Porter la marinade à ébullition dans une casserole, retirer la mousse grise qui se forme en surface, puis laisser bouillir 5 minutes.",
+      "Couper le lard en lardons. Les mettre dans le faitout à froid, puis chauffer à feu moyen pour qu'ils rendent leur gras et dorent. Réserver.",
+      "Dans ce gras, avec un peu d'huile si besoin, saisir la viande à feu vif en plusieurs fois, sans surcharger le faitout, jusqu'à ce qu'elle soit bien colorée de tous les côtés. Réserver.",
+      "Faire revenir les carottes quelques minutes, ajouter le concentré de tomate, puis saupoudrer de farine et remuer 1 à 2 minutes.",
+      "Remettre la viande, verser la marinade chaude en grattant bien les sucs du fond, puis compléter avec le bouillon jusqu'à hauteur. Ajouter l'oignon piqué, l'ail, le thym et le laurier. Poivrer, mais ne pas saler.",
+      "Porter à frémissement, couvrir et cuire 3 à 4 heures à feu très doux, en remuant de temps en temps, jusqu'à ce que la viande se défasse à la fourchette.",
+      "Pendant la dernière heure, éplucher les oignons grelots. Les mettre dans une poêle avec 15 g de beurre, le sucre et de l'eau à mi-hauteur. Cuire jusqu'à ce que l'eau s'évapore, puis les laisser caraméliser en les roulant. Réserver.",
+      "Dans la même poêle, faire dorer les champignons coupés en quartiers dans le reste du beurre, à feu vif. Réserver.",
+      "Retirer l'oignon piqué, le thym et le laurier. Ajouter les oignons grelots, les champignons et les lardons, puis laisser cuire 20 à 30 minutes à découvert, jusqu'à ce que la sauce nappe la cuillère.",
+      "Hors du feu, faire fondre le carré de chocolat dans la sauce. Goûter, puis saler et poivrer."
+    ],
+    astuce: "Encore meilleur réchauffé le lendemain. Se garde 3 jours au frigo et se congèle très bien. Pour éplucher facilement les grelots frais, les plonger 1 minute dans l'eau bouillante, la peau glisse toute seule. Pas besoin d'un excellent vin. Servir avec des pommes de terre vapeur, des tagliatelles fraîches ou une purée."
+  },
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
