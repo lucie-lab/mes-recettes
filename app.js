@@ -58,14 +58,39 @@
     if (r < 0.08) return String(e);
     if (r > 0.92) return String(e + 1);
     const fractions = [[0.25, "¼"], [1 / 3, "⅓"], [0.5, "½"], [2 / 3, "⅔"], [0.75, "¾"]];
-    const f = fractions.find(([v]) => Math.abs(v - r) < 0.06);
+    const f = fractions.find(([v]) => Math.abs(v - r) < 0.02); // seulement les vraies fractions
     if (f) return (e || "") + f[1];
     return String(Math.round(n * 10) / 10).replace(".", ",");
   }
 
+  // Quand on change le nombre de portions, on arrondit à des quantités qu'on peut acheter :
+  // pas de demi-carotte, pas de 37,5 cl de vin.
+  const COMPTABLES = ["", "gousse", "gousses", "feuille", "feuilles", "brin", "brins", "pincée", "pincées",
+    "boîte", "boîtes", "tranche", "tranches", "sachet", "sachets", "pot", "pots", "bouquet", "bouquets",
+    "poignée", "poignées", "verre", "verres", "cube", "cubes", "tasse", "tasses"];
+  const INVARIABLES = ["pois", "radis", "anchois", "jus", "ananas", "cassis", "maïs", "noix", "frais", "gros", "petits"];
+
+  function singulier(mot) {
+    if (!mot || mot.length < 4 || INVARIABLES.includes(mot.toLowerCase()) || !/s$/i.test(mot)) return mot;
+    return mot.slice(0, -1);
+  }
+
   const ligneIngredient = (ing, portions, base) => {
-    const q = typeof ing.qte === "number" ? ing.qte * portions / base : ing.qte;
-    return [formatQte(q), ing.unite, ing.nom].filter((x) => x !== "" && x != null).join(" ");
+    let q = ing.qte, u = ing.unite || "", nom = ing.nom || "";
+    if (typeof q === "number" && portions !== base) {
+      q = q * portions / base;
+      const ub = u.toLowerCase();
+      if (COMPTABLES.includes(ub)) q = Math.max(1, Math.round(q));
+      else if (ub.startsWith("c.") || ub === "cs" || ub === "cc") q = Math.max(0.5, Math.round(q * 2) / 2);
+      else if (ub === "kg" && q < 1) { q = Math.round(q * 1000 / 5) * 5; u = "g"; }
+      else if (ub === "l" && q < 1) { q = Math.round(q * 100); u = "cl"; }
+      else if (["g", "mg", "ml", "cl", "dl"].includes(ub)) q = q >= 20 ? Math.round(q / 5) * 5 : Math.max(1, Math.round(q));
+    }
+    if (typeof q === "number" && q <= 1) {
+      if (u && COMPTABLES.includes(u.toLowerCase().replace(/s$/, "")) && /s$/.test(u)) u = u.slice(0, -1);
+      if (!u) nom = nom.replace(/^(\S+)/, (m) => singulier(m));
+    }
+    return [formatQte(q), u, nom].filter((x) => x !== "" && x != null).join(" ");
   };
 
   async function copier(texte) {
