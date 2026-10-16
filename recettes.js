@@ -382,6 +382,58 @@ const RECETTES = [
     astuce: "Encore meilleur réchauffé le lendemain. Se garde 3 jours au frigo et se congèle très bien. Pour éplucher facilement les grelots frais, les plonger 1 minute dans l'eau bouillante, la peau glisse toute seule. Pas besoin d'un excellent vin. Servir avec des pommes de terre vapeur, des tagliatelles fraîches ou une purée."
   },
 
+
+  {
+    id: "boeuf-bourguignon-au-four",
+    titre: "Bœuf bourguignon au four",
+    emoji: "🥘",
+    categorie: "Plat",
+    tags: [],
+    temps: 250,
+    difficulte: 2,
+    portions: 4,
+    proteines: 57,
+    kcal: 750,
+    ingredients: [
+      { qte: 1, unite: "kg", nom: "bœuf à mijoter (joue, paleron ou jarret)" },
+      { qte: 75, unite: "cl", nom: "vin rouge (Bourgogne de préférence)" },
+      { qte: 1, unite: "", nom: "oignon" },
+      { qte: 3, unite: "", nom: "clous de girofle" },
+      { qte: 3, unite: "gousses", nom: "ail" },
+      { qte: 3, unite: "", nom: "carottes" },
+      { qte: 4, unite: "", nom: "brins de thym" },
+      { qte: 2, unite: "feuilles", nom: "laurier" },
+      { qte: 200, unite: "g", nom: "lard fumé (poitrine fumée)" },
+      { qte: 2, unite: "c. à soupe", nom: "huile" },
+      { qte: 2, unite: "c. à soupe", nom: "farine" },
+      { qte: 1, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 70, unite: "cl", nom: "bouillon de bœuf" },
+      { qte: 15, unite: "", nom: "oignons grelots" },
+      { qte: 250, unite: "g", nom: "champignons de Paris" },
+      { qte: 30, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "pincée", nom: "sucre" },
+      { qte: 1, unite: "", nom: "carré de chocolat noir à 70 % minimum" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "La veille, couper la viande en gros cubes d'environ 5 cm. Éplucher les carottes et les couper en rondelles épaisses, écraser l'ail et piquer l'oignon avec les clous de girofle. Mettre le tout dans un grand récipient ou un sac de congélation avec le thym et le laurier, couvrir de vin et laisser mariner 12 heures au frigo.",
+      "Le jour même, préchauffer le four à 150 °C. Égoutter la viande et les légumes, filtrer la marinade dans une passoire fine en la gardant, et éponger soigneusement la viande avec du papier absorbant.",
+      "Dans une casserole, porter la marinade à ébullition, retirer la mousse grise qui se forme en surface, puis laisser bouillir 5 minutes.",
+      "Couper le lard en lardons. Les mettre dans une grande poêle à froid, puis chauffer à feu moyen pour qu'ils rendent leur gras et dorent. Réserver.",
+      "Dans le gras de la poêle, avec l'huile, saisir la viande à feu vif en plusieurs fois, jusqu'à ce qu'elle soit bien colorée de tous les côtés. La disposer dans un plat allant au four, en une seule couche bien serrée.",
+      "Dans la même poêle, faire revenir les carottes 3 minutes, ajouter le concentré de tomate, puis saupoudrer de farine et remuer 1 minute. Déglacer avec une louche de marinade chaude en grattant bien les sucs.",
+      "Verser le contenu de la poêle dans la casserole de marinade, ajouter le bouillon et porter à frémissement en fouettant, jusqu'à ce que la sauce épaississe légèrement.",
+      "Verser la sauce sur la viande et ajouter l'oignon piqué, l'ail, le thym et le laurier. Le liquide doit couvrir la viande aux deux tiers au moins : compléter avec un peu d'eau si besoin. Poivrer, mais ne pas saler. Couvrir de deux couches de papier aluminium bien serrées sur les bords.",
+      "Enfourner 3 heures. À mi-cuisson, retourner les morceaux de viande et vérifier le niveau du liquide, en ajoutant un peu d'eau s'il a trop baissé. En fin de cuisson, la viande doit se défaire à la fourchette ; sinon, prolonger de 30 minutes.",
+      "Pendant la dernière demi-heure, mettre les oignons grelots épluchés dans la poêle avec 15 g de beurre, le sucre et de l'eau à mi-hauteur. Cuire jusqu'à ce que l'eau s'évapore, puis les laisser caraméliser en les roulant. Réserver, puis faire dorer les champignons coupés en quartiers dans le reste du beurre, à feu vif.",
+      "Sortir le plat du four et retirer l'oignon piqué, le thym et le laurier. Verser la sauce dans la casserole, en laissant la viande et les carottes dans le plat recouvert d'aluminium. Faire réduire la sauce 15 à 20 minutes à feu moyen, jusqu'à ce qu'elle nappe la cuillère.",
+      "Hors du feu, faire fondre le chocolat dans la sauce. Goûter, puis saler et poivrer. Reverser la sauce sur la viande, ajouter les lardons, les oignons grelots et les champignons, et servir."
+    ],
+    astuce: "Choisir un plat juste assez grand pour contenir la viande en une couche serrée : plus il est large, plus il faut de liquide. L'aluminium remplace le couvercle de la cocotte, il doit être bien hermétique. Encore meilleur réchauffé le lendemain, se garde 3 jours au frigo et se congèle très bien. Servir avec des pommes de terre vapeur, des tagliatelles fraîches ou une purée."
+  },
+
+
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
