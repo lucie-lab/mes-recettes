@@ -433,7 +433,44 @@ const RECETTES = [
   },
 
 
-
+  {
+    id: "cookies-au-beurre-noisette-et-deux-chocolats",
+    titre: "Cookies au beurre noisette et deux chocolats",
+    emoji: "🍪",
+    categorie: "Dessert",
+    tags: ["végétarien"],
+    temps: 75,
+    difficulte: 1,
+    portions: 15,
+    proteines: 2,
+    kcal: 180,
+    ingredients: [
+      { qte: 100, unite: "g", nom: "beurre doux" },
+      { qte: 50, unite: "g", nom: "sucre en poudre" },
+      { qte: 75, unite: "g", nom: "cassonade" },
+      { qte: 2, unite: "c. à soupe", nom: "crème fraîche épaisse" },
+      { qte: 1, unite: "c. à café", nom: "extrait de vanille" },
+      { qte: 115, unite: "g", nom: "farine" },
+      { qte: 0.5, unite: "c. à café", nom: "bicarbonate de soude alimentaire (ou 2 c. à café rases de levure chimique)" },
+      { qte: 0.5, unite: "c. à café", nom: "sel" },
+      { qte: 0.5, unite: "c. à café", nom: "fécule de maïs (facultatif)" },
+      { qte: 100, unite: "g", nom: "pépites de chocolat" },
+      { qte: 80, unite: "g", nom: "chocolat noir à 60-70 %" },
+      { qte: 1, unite: "pincée", nom: "fleur de sel" }
+    ],
+    etapes: [
+      "Faire fondre le beurre dans une petite casserole à feu moyen, puis le laisser cuire 4 à 6 minutes en remuant, jusqu'à ce qu'il mousse, devienne doré et sente la noisette. Le verser aussitôt dans un saladier, avec les petits grains bruns du fond : ce sont eux qui donnent le goût.",
+      "Laisser tiédir le beurre 15 minutes au frigo : il doit être tiède, pas chaud.",
+      "Ajouter le sucre et la cassonade, et mélanger bien. Ajouter la crème fraîche et la vanille, puis mélanger jusqu'à ce que ce soit lisse.",
+      "Dans un autre bol, mélanger la farine, le bicarbonate, le sel et la fécule. Les verser dans le saladier et mélanger juste jusqu'à ce qu'il n'y ait plus de farine visible, sans trop travailler la pâte.",
+      "Hacher grossièrement le chocolat noir au couteau. L'ajouter à la pâte avec les pépites, en gardant une petite poignée de pépites pour la fin.",
+      "Former des boules d'environ 35 g, de la taille d'une balle de ping-pong, et les poser sur une plaque recouverte de papier cuisson. Placer au frigo au moins 30 minutes.",
+      "Préchauffer le four à 180 °C. Espacer les boules d'au moins 5 cm, car elles s'étalent, et cuire en deux fournées si besoin.",
+      "Enfourner 10 à 11 minutes, jusqu'à ce que les bords soient dorés et que le centre paraisse encore un peu cru.",
+      "À la sortie du four, piquer quelques pépites sur le dessus et parsemer d'un peu de fleur de sel. Laisser reposer 10 minutes sur la plaque : les cookies finissent de cuire et se raffermissent en refroidissant."
+    ],
+    astuce: "Pour des cookies encore meilleurs, laisser les boules de pâte une nuit au frigo : le goût caramel devient plus profond. Elles se congèlent aussi très bien, et se cuisent sans décongeler en ajoutant 1 à 2 minutes de cuisson. Avec de la levure chimique à la place du bicarbonate, les cookies seront un peu plus gonflés. Se gardent 4 à 5 jours dans une boîte hermétique."
+  },
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
