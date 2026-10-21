@@ -524,6 +524,49 @@ const RECETTES = [
     ],
     astuce: "Pour des œufs encore meilleurs, les faire mariner après écalage dans 4 c. à soupe de sauce soja, 4 c. à soupe d'eau et 1 c. à café de miel, de 2 heures à une nuit au frigo. La pâte de curry varie beaucoup d'une marque à l'autre : commencer par 1,5 c. à soupe et goûter. Le curry et le bœuf se gardent 3 jours au frigo, séparément."
   },
+
+
+  {
+    id: "tiramisu-au-citron-et-basilic",
+    titre: "Tiramisu au citron et basilic",
+    emoji: "🍋",
+    categorie: "Dessert",
+    tags: ["végétarien"],
+    temps: 60,
+    difficulte: 2,
+    portions: 8,
+    proteines: 6,
+    kcal: 550,
+    ingredients: [
+      { qte: 4, unite: "", nom: "citrons jaunes non traités" },
+      { qte: 3, unite: "", nom: "œufs" },
+      { qte: 250, unite: "g", nom: "sucre en poudre (150 g pour le lemon curd, 50 g pour la crème, 50 g pour le sirop)" },
+      { qte: 90, unite: "g", nom: "beurre doux froid" },
+      { qte: 1, unite: "pincée", nom: "sel" },
+      { qte: 20, unite: "cl", nom: "eau" },
+      { qte: 1, unite: "", nom: "petit bouquet de basilic" },
+      { qte: 3, unite: "c. à soupe", nom: "limoncello (facultatif)" },
+      { qte: 250, unite: "g", nom: "mascarpone" },
+      { qte: 20, unite: "cl", nom: "crème liquide entière très froide" },
+      { qte: 1, unite: "c. à café", nom: "extrait de vanille" },
+      { qte: 40, unite: "", nom: "biscuits à la cuillère" },
+      { qte: 30, unite: "g", nom: "pistaches non salées (facultatif)" }
+    ],
+    etapes: [
+      "Lemon curd : prélever le zeste de 2 citrons et presser 3 citrons. Dans une casserole, hors du feu, fouetter les œufs, 150 g de sucre, le sel et les zestes, puis ajouter le jus.",
+      "Cuire à feu doux en remuant sans arrêt avec une spatule et en raclant bien le fond, 6 à 8 minutes, jusqu'à ce que la crème épaississe et nappe la spatule. Ne pas faire bouillir.",
+      "Hors du feu, filtrer la crème dans un bol à travers une passoire fine. Laisser tiédir 5 minutes, puis ajouter le beurre froid en petits dés, un à un, en fouettant jusqu'à obtenir une crème lisse et brillante.",
+      "Couvrir de film alimentaire au contact de la crème et placer au frigo au moins 1 heure : le curd doit être bien froid avant le montage.",
+      "Sirop : porter à ébullition l'eau, 50 g de sucre, le zeste et le jus du dernier citron, et laisser bouillir 2 minutes. Hors du feu, ajouter 5 feuilles de basilic et laisser infuser jusqu'à refroidissement. Retirer le basilic et ajouter le limoncello.",
+      "Crème : dans un grand saladier bien froid, fouetter le mascarpone avec 50 g de sucre et la vanille. Ajouter la crème liquide très froide et fouetter 3 à 4 minutes au batteur électrique, jusqu'à obtenir une chantilly ferme.",
+      "Incorporer délicatement la moitié du lemon curd froid à la crème avec une spatule, sans trop mélanger : quelques marbrures jaunes, c'est joli.",
+      "Tremper chaque biscuit dans le sirop une seconde de chaque côté, pas plus, et en tapisser le fond d'un plat d'environ 20 × 30 cm.",
+      "Étaler la moitié de la crème, refaire une couche de biscuits imbibés, puis étaler le reste de la crème et lisser.",
+      "Napper avec le reste du lemon curd. Couvrir et placer au frigo au moins 6 heures, idéalement une nuit.",
+      "Au moment de servir, parsemer de pistaches concassées, de quelques feuilles de basilic et d'un peu de zeste de citron."
+    ],
+    astuce: "Le temps indiqué ne compte pas le repos au frigo : le préparer la veille. Les ingrédients de la crème doivent sortir du frigo au dernier moment, sinon elle ne monte pas. Si le lemon curd fait des grumeaux, la passoire les rattrape. Se garde 2 jours au frigo, bien couvert."
+  },
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
