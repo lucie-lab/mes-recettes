@@ -473,8 +473,8 @@ const RECETTES = [
   },
 
   {
-    id: "bols-de-curry-rouge-thai-au-boeuf-croustillant",
-    titre: "Bols de curry rouge thaï au bœuf croustillant",
+    id: "bols-de-curry-jaune-thai-au-boeuf-croustillant",
+    titre: "Bols de curry jaune thaï au bœuf croustillant",
     emoji: "🍜",
     categorie: "Plat",
     tags: [],
@@ -482,7 +482,7 @@ const RECETTES = [
     difficulte: 2,
     portions: 4,
     proteines: 40,
-    kcal: 800,
+    kcal: 820,
     ingredients: [
       { qte: 450, unite: "g", nom: "bœuf haché à 5 %" },
       { qte: 4, unite: "", nom: "oignons nouveaux" },
@@ -493,10 +493,11 @@ const RECETTES = [
       { qte: 1, unite: "c. à café", nom: "sucre" },
       { qte: 1, unite: "c. à soupe", nom: "huile neutre" },
       { qte: 2, unite: "", nom: "échalotes" },
-      { qte: 1, unite: "", nom: "morceau de gingembre frais de 3 cm" },
+      { qte: 1, unite: "", nom: "morceau de gingembre frais de 1,5 cm" },
       { qte: 1, unite: "", nom: "tige de citronnelle" },
-      { qte: 2, unite: "c. à soupe", nom: "pâte de curry rouge thaï" },
+      { qte: 1, unite: "c. à soupe", nom: "pâte de curry jaune" },
       { qte: 400, unite: "ml", nom: "lait de coco entier" },
+      { qte: 1, unite: "c. à soupe", nom: "beurre de cacahuète" },
       { qte: 50, unite: "cl", nom: "bouillon de bœuf (1 cube)" },
       { qte: 4, unite: "feuilles", nom: "combava (facultatif)" },
       { qte: 1, unite: "c. à soupe", nom: "nuoc-mâm" },
@@ -506,7 +507,6 @@ const RECETTES = [
       { qte: 280, unite: "g", nom: "riz jasmin" },
       { qte: 4, unite: "", nom: "œufs" },
       { qte: 1, unite: "", nom: "petit bouquet de coriandre" },
-      { qte: 1, unite: "", nom: "piment rouge frais (facultatif)" },
       { qte: 2, unite: "c. à soupe", nom: "cacahuètes grillées" }
     ],
     etapes: [
@@ -515,14 +515,14 @@ const RECETTES = [
       "Pendant ce temps, émincer les échalotes, râper le gingembre et hacher l'ail. Retirer les feuilles dures de la citronnelle et émincer finement la partie tendre. Émincer les oignons nouveaux, en séparant le blanc du vert.",
       "Chauffer une poêle à feu moyen-vif, sans matière grasse. Étaler le bœuf en une couche et le laisser dorer 5 minutes sans y toucher, puis l'émietter et le cuire encore 4 minutes, jusqu'à ce qu'il soit bien doré et croustillant par endroits.",
       "Ajouter le blanc des oignons nouveaux et l'ail, et remuer 1 minute. Ajouter la sauce soja, le vinaigre de riz, le sucre et l'huile de sésame, puis cuire 2 à 3 minutes jusqu'à ce que le liquide devienne sirupeux et enrobe la viande. Réserver.",
-      "Dans une sauteuse, chauffer l'huile neutre à feu moyen et faire revenir les échalotes, le gingembre et la citronnelle 3 minutes, sans les colorer.",
-      "Ouvrir la boîte de lait de coco sans la secouer et prélever 3 cuillères à soupe de la crème épaisse du dessus. L'ajouter dans la sauteuse avec la pâte de curry et cuire 2 minutes en remuant, jusqu'à ce que l'huile se sépare et que le parfum devienne intense.",
-      "Verser le reste du lait de coco, le bouillon, les feuilles de combava, le nuoc-mâm et le miel. Laisser frémir 10 minutes à feu doux, sans faire bouillir.",
-      "Hors du feu, ajouter le jus d'un demi-citron vert. Goûter et équilibrer : du nuoc-mâm pour le salé, du miel pour le sucré, du citron vert pour l'acidité.",
+      "Dans une casserole, chauffer l'huile neutre à feu moyen et faire revenir les échalotes, le gingembre et la citronnelle 3 minutes, sans les colorer.",
+      "Ouvrir la boîte de lait de coco sans la secouer et prélever 3 cuillères à soupe de la crème épaisse du dessus. L'ajouter dans la casserole avec la pâte de curry et cuire 2 minutes en remuant, jusqu'à ce que le parfum devienne intense.",
+      "Verser le reste du lait de coco, puis ajouter le beurre de cacahuète en fouettant pour qu'il fonde. Ajouter le bouillon, les feuilles de combava, le nuoc-mâm et le miel. Laisser frémir 10 minutes à feu doux, sans faire bouillir.",
+      "Goûter. Si le curry manque de goût, ajouter une demi-cuillère de pâte de curry et laisser frémir 2 minutes de plus. Hors du feu, ajouter le jus d'un demi-citron vert, puis équilibrer : du nuoc-mâm pour le salé, du miel pour le sucré, du citron vert pour l'acidité.",
       "Remettre sur le feu, poser les pak choï coupés en deux, côté coupé vers le haut, couvrir et cuire 3 à 4 minutes : ils doivent rester un peu croquants.",
-      "Dans chaque bol, disposer le riz, le bœuf et un pak choï, puis verser le curry autour. Ajouter un œuf coupé en deux, le vert des oignons nouveaux, la coriandre, le piment émincé, les cacahuètes concassées et un quartier de citron vert."
+      "Dans chaque bol, disposer le riz, le bœuf et un pak choï, puis verser le curry autour. Ajouter un œuf coupé en deux, le vert des oignons nouveaux, la coriandre, les cacahuètes concassées et un quartier de citron vert."
     ],
-    astuce: "Pour des œufs encore meilleurs, les faire mariner après écalage dans 4 c. à soupe de sauce soja, 4 c. à soupe d'eau et 1 c. à café de miel, de 2 heures à une nuit au frigo. La pâte de curry varie beaucoup d'une marque à l'autre : commencer par 1,5 c. à soupe et goûter. Le curry et le bœuf se gardent 3 jours au frigo, séparément."
+    astuce: "Le curry jaune est doux, mais la force des pâtes varie beaucoup d'une marque à l'autre : toujours commencer par 1 c. à soupe et goûter, on peut en rajouter mais jamais en retirer. Pour ceux qui aiment épicé, servir du piment frais émincé à part. Pour des œufs encore meilleurs, les faire mariner après écalage dans 4 c. à soupe de sauce soja, 4 c. à soupe d'eau et 1 c. à café de miel, de 2 heures à une nuit au frigo. Le curry et le bœuf se gardent 3 jours au frigo, séparément."
   },
 
 
