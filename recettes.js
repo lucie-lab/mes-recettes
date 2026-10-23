@@ -567,6 +567,57 @@ const RECETTES = [
     ],
     astuce: "Le temps indiqué ne compte pas le repos au frigo : le préparer la veille. Les ingrédients de la crème doivent sortir du frigo au dernier moment, sinon elle ne monte pas. Si le lemon curd fait des grumeaux, la passoire les rattrape. Se garde 2 jours au frigo, bien couvert."
   },
+
+
+  {
+    id: "tarte-aux-oignons-confits-tomates-lardons-et-comte",
+    titre: "Tarte aux oignons confits, tomates, lardons et Comté",
+    emoji: "🥧",
+    categorie: "Plat",
+    tags: [],
+    temps: 95,
+    difficulte: 2,
+    portions: 6,
+    proteines: 21,
+    kcal: 580,
+    ingredients: [
+      { qte: 200, unite: "g", nom: "farine" },
+      { qte: 100, unite: "g", nom: "beurre froid (pour la pâte)" },
+      { qte: 5, unite: "cl", nom: "eau très froide" },
+      { qte: 3, unite: "", nom: "oignons" },
+      { qte: 20, unite: "g", nom: "beurre (pour les oignons)" },
+      { qte: 1, unite: "c. à café", nom: "miel" },
+      { qte: 1, unite: "gousse", nom: "ail" },
+      { qte: 4, unite: "", nom: "tomates" },
+      { qte: 1, unite: "", nom: "barquette de lardons fumés" },
+      { qte: 1, unite: "c. à soupe", nom: "moutarde de Dijon" },
+      { qte: 1, unite: "c. à soupe", nom: "moutarde à l'ancienne" },
+      { qte: 100, unite: "g", nom: "Comté" },
+      { qte: 50, unite: "g", nom: "fromage râpé" },
+      { qte: 4, unite: "", nom: "œufs" },
+      { qte: 15, unite: "cl", nom: "crème fraîche légère" },
+      { qte: 100, unite: "g", nom: "skyr" },
+      { qte: 10, unite: "cl", nom: "lait" },
+      { qte: "", unite: "", nom: "Thym ou herbes de Provence" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "Pâte : mélanger la farine et une pincée de sel. Ajouter le beurre froid en dés et le frotter entre les doigts jusqu'à obtenir un sable grossier. Ajouter l'eau froide et rassembler en boule sans trop travailler la pâte.",
+      "Étaler la pâte en un disque d'environ 33 cm, la placer dans le plat de 28 cm sans l'étirer, couper l'excédent et piquer le fond à la fourchette. Placer 15 minutes au frigo.",
+      "Émincer finement les oignons. Les faire fondre dans le beurre à feu doux avec le miel, 20 minutes, en remuant de temps en temps, jusqu'à ce qu'ils soient dorés et fondants. Ajouter l'ail haché les 2 dernières minutes.",
+      "Pendant ce temps, couper les tomates en rondelles d'un demi-centimètre, les poser sur du papier absorbant, les saler légèrement et les laisser dégorger.",
+      "Préchauffer le four à 200 °C. Couvrir la pâte de papier cuisson, la remplir de riz cru ou de légumes secs et la précuire 10 minutes. Retirer le papier et le riz, puis remettre 5 minutes au four, jusqu'à ce que le fond soit sec. Baisser le four à 180 °C.",
+      "Faire dorer les lardons à la poêle, sans matière grasse, et les égoutter sur du papier absorbant. Râper le Comté.",
+      "Fouetter les œufs avec le skyr jusqu'à ce qu'il n'y ait plus de grumeaux, puis ajouter la crème légère, le lait et du poivre. Ne pas saler : les lardons et les fromages le sont déjà.",
+      "Mélanger les deux moutardes et les étaler sur le fond de tarte précuit, puis ajouter les oignons confits. Parsemer des lardons et de la moitié du Comté.",
+      "Verser l'appareil aux œufs, puis disposer les rondelles de tomates épongées en rosace sur le dessus.",
+      "Parsemer du reste de Comté, du fromage râpé et de thym, et ajouter un tour de poivre.",
+      "Enfourner 35 à 40 minutes à 180 °C, jusqu'à ce que la tarte soit bien dorée et que le centre ne tremble presque plus.",
+      "Laisser reposer 10 minutes avant de couper."
+    ],
+    astuce: "Pour un plat de 28 cm. Garder le beurre de la pâte bien froid et ne pas la pétrir longtemps : elle reste friable et croustillante. Les oignons confits font toute la différence, ils doivent fondre doucement sans brûler. Bien fouetter le skyr avec les œufs avant d'ajouter la crème. Se garde 2 jours au frigo et se mange aussi froide."
+  },
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
