@@ -618,6 +618,41 @@ const RECETTES = [
     astuce: "Pour un plat de 28 cm. Garder le beurre de la pâte bien froid et ne pas la pétrir longtemps : elle reste friable et croustillante. Les oignons confits font toute la différence, ils doivent fondre doucement sans brûler. Bien fouetter le skyr avec les œufs avant d'ajouter la crème. Se garde 2 jours au frigo et se mange aussi froide."
   },
 
+  {
+    id: "carbonara-romaine",
+    titre: "Carbonara romaine",
+    emoji: "🍝",
+    categorie: "Plat",
+    tags: [],
+    temps: 25,
+    difficulte: 2,
+    portions: 2,
+    proteines: 36,
+    kcal: 950,
+    ingredients: [
+      { qte: 250, unite: "g", nom: "spaghetti" },
+      { qte: 120, unite: "g", nom: "guanciale (joue de porc séchée)" },
+      { qte: 3, unite: "", nom: "jaunes d'œufs" },
+      { qte: 1, unite: "", nom: "œuf entier" },
+      { qte: 30, unite: "g", nom: "pecorino romano" },
+      { qte: 30, unite: "g", nom: "parmesan" },
+      { qte: 2, unite: "c. à café", nom: "poivre noir en grains" },
+      { qte: "", unite: "", nom: "Sel" }
+    ],
+    etapes: [
+      "Retirer la couenne du guanciale et le couper en bâtonnets d'environ 1 cm. Râper finement le pecorino et le parmesan. Écraser grossièrement le poivre au mortier, ou sous le fond d'une casserole.",
+      "Dans un saladier, fouetter les jaunes, l'œuf entier, les fromages râpés et la moitié du poivre, jusqu'à obtenir une pâte épaisse.",
+      "Porter à ébullition environ 2 litres d'eau, légèrement salée : le guanciale et les fromages le sont déjà beaucoup. Cuire les spaghetti 1 minute de moins que le temps indiqué sur le paquet.",
+      "Pendant ce temps, mettre le guanciale dans une grande poêle froide, sans matière grasse. Chauffer à feu moyen et le laisser dorer 8 à 10 minutes, jusqu'à ce qu'il soit croustillant et ait rendu sa graisse.",
+      "Sortir le guanciale avec une écumoire et le réserver. Ajouter le reste du poivre dans la graisse et le faire chauffer 30 secondes pour le torréfier, puis couper le feu.",
+      "Avant d'égoutter les pâtes, prélever un grand bol d'eau de cuisson. Verser 2 cuillères à soupe de cette eau chaude dans le mélange œufs-fromage en fouettant, pour le détendre.",
+      "Égoutter les pâtes et les verser dans la poêle avec la graisse poivrée. Mélanger, ajouter une petite louche d'eau de cuisson et laisser reposer 1 minute hors du feu : la poêle doit être chaude, mais pas brûlante.",
+      "Verser le mélange œufs-fromage sur les pâtes en remuant énergiquement avec une pince. Ajouter de l'eau de cuisson petit à petit, jusqu'à obtenir une sauce crémeuse et brillante qui nappe les spaghetti.",
+      "Ajouter la moitié du guanciale et mélanger. Servir aussitôt dans des assiettes chaudes, avec le reste du guanciale, un peu de pecorino râpé et un tour de poivre."
+    ],
+    astuce: "Si la sauce reste trop liquide, poser la poêle 10 secondes sur feu très doux en remuant sans arrêt, puis la retirer : jamais plus longtemps sinon les œufs cuisent en omelette. Méthode infaillible : faire l'émulsion dans un saladier posé au-dessus de la casserole d'eau de cuisson, en remuant jusqu'à ce que la sauce épaississe. Pas de crème : c'est l'amidon des pâtes et le fromage qui rendent la sauce crémeuse."
+  },
+  
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
