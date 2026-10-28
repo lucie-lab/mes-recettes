@@ -653,6 +653,47 @@ const RECETTES = [
     astuce: "Si la sauce reste trop liquide, poser la poêle 10 secondes sur feu très doux en remuant sans arrêt, puis la retirer : jamais plus longtemps sinon les œufs cuisent en omelette. Méthode infaillible : faire l'émulsion dans un saladier posé au-dessus de la casserole d'eau de cuisson, en remuant jusqu'à ce que la sauce épaississe. Pas de crème : c'est l'amidon des pâtes et le fromage qui rendent la sauce crémeuse."
   },
   
+
+  {
+    id: "gratin-dauphinois-et-cotelettes-d-agneau-a-l-ail",
+    titre: "Gratin dauphinois et côtelettes d'agneau à l'ail",
+    emoji: "🥔",
+    categorie: "Plat",
+    tags: [],
+    temps: 95,
+    difficulte: 2,
+    portions: 4,
+    proteines: 36,
+    kcal: 900,
+    ingredients: [
+      { qte: 1, unite: "kg", nom: "pommes de terre" },
+      { qte: 50, unite: "cl", nom: "lait entier" },
+      { qte: 30, unite: "cl", nom: "crème liquide entière" },
+      { qte: 4, unite: "gousses", nom: "ail" },
+      { qte: 2, unite: "", nom: "brins de thym" },
+      { qte: 1, unite: "feuille", nom: "laurier" },
+      { qte: 1, unite: "pincée", nom: "noix de muscade" },
+      { qte: 1, unite: "c. à café", nom: "sel" },
+      { qte: 20, unite: "g", nom: "beurre (pour le plat)" },
+      { qte: 40, unite: "g", nom: "Comté râpé (facultatif)" },
+      { qte: 8, unite: "", nom: "côtelettes d'agneau" },
+      { qte: 1, unite: "c. à soupe", nom: "huile" },
+      { qte: 30, unite: "g", nom: "beurre (pour les côtelettes)" },
+      { qte: "", unite: "", nom: "Fleur de sel et poivre" }
+    ],
+    etapes: [
+      "Sortir les côtelettes du frigo. Préchauffer le four à 170 °C. Frotter le plat à gratin avec une gousse d'ail coupée en deux, puis le beurrer généreusement.",
+      "Éplucher les pommes de terre et les trancher finement, environ 3 mm, sans les rincer : leur amidon épaissira la sauce.",
+      "Dans une grande casserole, verser le lait et la crème, ajouter 2 gousses d'ail écrasées, 1 brin de thym, le laurier, la muscade, le sel et du poivre.",
+      "Ajouter les pommes de terre et porter doucement à frémissement en remuant délicatement. Cuire 15 minutes à feu doux, sans faire bouillir, en remuant de temps en temps pour que le fond n'accroche pas.",
+      "Retirer l'ail, le thym et le laurier. Verser les pommes de terre et leur crème dans le plat, et égaliser la surface. Parsemer de Comté si désiré.",
+      "Enfourner 45 à 50 minutes, jusqu'à ce que le dessus soit bien doré et qu'un couteau s'enfonce sans résistance. Laisser reposer 10 minutes hors du four.",
+      "Pendant ce repos, saler les côtelettes. Chauffer l'huile dans une poêle à feu vif et saisir les côtelettes 2 minutes par face.",
+      "Ajouter le beurre, la dernière gousse d'ail écrasée et le reste du thym. Incliner la poêle et arroser les côtelettes de beurre mousseux avec une cuillère pendant 1 minute.",
+      "Laisser reposer les côtelettes 3 minutes sur une assiette, puis les servir avec le gratin, une pincée de fleur de sel et un tour de poivre."
+    ],
+    astuce: "Le vrai gratin dauphinois n'a pas de fromage : c'est la crème qui gratine. Pour des côtelettes plus cuites, compter 1 minute de plus par face. Le gratin est encore meilleur réchauffé le lendemain et se garde 3 jours au frigo. Le vrai gratin dauphinois n'a pas de fromage : c'est la crème qui gratine. Pour des côtelettes plus cuites, compter 1 minute de plus par face. Le gratin est encore meilleur réchauffé le lendemain et se garde 3 jours au frigo."
+  },
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
