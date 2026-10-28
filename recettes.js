@@ -694,6 +694,52 @@ const RECETTES = [
     ],
     astuce: "Le vrai gratin dauphinois n'a pas de fromage : c'est la crème qui gratine. Pour des côtelettes plus cuites, compter 1 minute de plus par face. Le gratin est encore meilleur réchauffé le lendemain et se garde 3 jours au frigo. Le vrai gratin dauphinois n'a pas de fromage : c'est la crème qui gratine. Pour des côtelettes plus cuites, compter 1 minute de plus par face. Le gratin est encore meilleur réchauffé le lendemain et se garde 3 jours au frigo."
   },
+
+
+  {
+    id: "flan-patissier-a-la-vanille",
+    titre: "Flan pâtissier à la vanille",
+    emoji: "🍮",
+    categorie: "Dessert",
+    tags: [],
+    temps: 75,
+    difficulte: 2,
+    portions: 10,
+    proteines: 10,
+    kcal: 480,
+    ingredients: [
+      { qte: 1, unite: "", nom: "rouleau de pâte feuilletée pur beurre" },
+      { qte: 10, unite: "g", nom: "beurre (pour le moule)" },
+      { qte: 1, unite: "c. à soupe", nom: "cassonade" },
+      { qte: 1.2, unite: "l", nom: "lait entier" },
+      { qte: 1, unite: "gousse", nom: "vanille" },
+      { qte: 60, unite: "g", nom: "sucre vanillé" },
+      { qte: 1, unite: "pincée", nom: "sel" },
+      { qte: 6, unite: "", nom: "œufs" },
+      { qte: 200, unite: "g", nom: "sucre en poudre" },
+      { qte: 120, unite: "g", nom: "fécule de maïs" },
+      { qte: 30, unite: "g", nom: "beurre" },
+      { qte: 30, unite: "cl", nom: "crème liquide entière" },
+      { qte: 20, unite: "g", nom: "sucre (pour le nappage)" },
+      { qte: 2, unite: "c. à soupe", nom: "eau (pour le nappage)" }
+    ],
+    etapes: [
+      "La veille, fendre la gousse de vanille en deux et gratter les graines avec la pointe d'un couteau. Dans une grande casserole, chauffer doucement le lait avec la gousse, les graines, le sucre vanillé et le sel, en fouettant de temps en temps.",
+      "Pendant ce temps, dans un grand saladier, fouetter les œufs avec le sucre et la fécule de maïs jusqu'à obtenir un mélange lisse, sans grumeaux.",
+      "Quand le lait frémit, retirer la gousse et verser le lait chaud sur les œufs en fouettant sans arrêt. Reverser le tout dans la casserole.",
+      "Cuire à feu doux en fouettant sans s'arrêter, en raclant bien le fond et les bords. Dès que les premières bulles apparaissent, continuer 1 minute en fouettant : la crème doit être épaisse, comme une crème pâtissière.",
+      "Hors du feu, ajouter le beurre et fouetter jusqu'à ce qu'il fonde. Verser dans un grand saladier, ajouter la crème liquide et lisser au mixeur plongeant.",
+      "Couvrir de film alimentaire au contact de la crème et laisser tiédir, puis placer au frigo jusqu'au lendemain.",
+      "Le jour même, beurrer le moule et le saupoudrer de cassonade. Étaler légèrement le rouleau de pâte pour l'agrandir, puis en tapisser le fond et les bords du moule en appuyant bien dans les angles. Couper l'excédent et placer le moule 30 minutes au congélateur.",
+      "Préchauffer le four à 200 °C en chaleur tournante. Lisser la crème froide au mixeur plongeant pour la rendre à nouveau souple et sans grumeaux.",
+      "Verser la crème sur la pâte congelée, en laissant un demi-centimètre en haut, car le flan gonfle à la cuisson. Lisser le dessus à la spatule.",
+      "Enfourner 30 minutes à 200 °C, puis 5 minutes à 230 °C pour colorer le dessus. Le flan doit être bien doré, presque noir par endroits, et encore légèrement tremblotant au centre.",
+      "Laisser refroidir complètement à température ambiante, puis placer au frigo au moins 4 heures avant de démouler et de couper.",
+      "Pour le nappage, faire bouillir le sucre et l'eau 1 minute, laisser tiédir, puis badigeonner le dessus du flan froid au pinceau."
+    ],
+    astuce: "Le temps indiqué ne compte ni la nuit de repos de la crème ni les 4 heures de frigo après cuisson : commencer la veille. Ne jamais couper le flan tiède, il s'effondrerait. Pour une texture plus ferme, cuire 5 à 10 minutes de plus à 200 °C avant de monter à 230 °C. Sans chaleur tournante, cuire à 210 °C. Poser le moule sur une plaque pendant la cuisson. Se garde 3 jours au frigo."
+  },
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
