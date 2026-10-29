@@ -740,6 +740,54 @@ const RECETTES = [
     astuce: "Le temps indiqué ne compte ni la nuit de repos de la crème ni les 4 heures de frigo après cuisson : commencer la veille. Ne jamais couper le flan tiède, il s'effondrerait. Pour une texture plus ferme, cuire 5 à 10 minutes de plus à 200 °C avant de monter à 230 °C. Sans chaleur tournante, cuire à 210 °C. Poser le moule sur une plaque pendant la cuisson. Se garde 3 jours au frigo."
   },
 
+  {
+    id: "linguine-alfredo-au-poulet-et-paprika-fume",
+    titre: "Linguine Alfredo au poulet et paprika fumé",
+    emoji: "🍝",
+    categorie: "Plat",
+    tags: [],
+    temps: 65,
+    difficulte: 2,
+    portions: 2,
+    proteines: 59,
+    kcal: 1020,
+    ingredients: [
+      { qte: 2, unite: "", nom: "blancs de poulet (environ 300 g)" },
+      { qte: 1, unite: "c. à soupe", nom: "sel (pour la saumure)" },
+      { qte: 200, unite: "g", nom: "linguine" },
+      { qte: 1, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 30, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "", nom: "oignon blanc" },
+      { qte: 3, unite: "gousses", nom: "ail" },
+      { qte: 2, unite: "c. à café", nom: "paprika fumé" },
+      { qte: 1, unite: "pincée", nom: "piment d'Espelette (facultatif)" },
+      { qte: 5, unite: "cl", nom: "vin blanc sec" },
+      { qte: 20, unite: "cl", nom: "bouillon de volaille (½ cube)" },
+      { qte: 15, unite: "cl", nom: "crème liquide entière" },
+      { qte: 60, unite: "g", nom: "parmesan râpé" },
+      { qte: 1, unite: "pincée", nom: "noix de muscade" },
+      { qte: 1, unite: "poignée", nom: "pousses d'épinards" },
+      { qte: 0.5, unite: "", nom: "citron (zeste)" },
+      { qte: 1, unite: "", nom: "petit bouquet de persil" },
+      { qte: "", unite: "", nom: "Poivre" }
+    ],
+    etapes: [
+      "Dissoudre le sel dans 50 cl d'eau froide et y plonger les blancs de poulet 30 minutes au frigo. Les égoutter et bien les sécher avec du papier absorbant.",
+      "Mettre une grande casserole d'eau à chauffer. Ouvrir les blancs de poulet en deux dans l'épaisseur et les assaisonner de poivre et d'1 c. à café de paprika fumé, sans saler. Émincer l'oignon et hacher l'ail.",
+      "Chauffer l'huile dans une grande poêle à feu moyen-vif et dorer le poulet 4 à 5 minutes par face, sans le bouger, jusqu'à ce qu'il ne soit plus rosé à cœur. Le réserver sur une assiette.",
+      "Saler l'eau bouillante et cuire les linguine 1 minute de moins que le temps indiqué sur le paquet. Garder un bol d'eau de cuisson avant d'égoutter.",
+      "Dans la même poêle, sans la laver, baisser à feu moyen et faire fondre le beurre. Ajouter l'oignon et le cuire 4 minutes, puis ajouter l'ail, le reste du paprika et le piment d'Espelette, et remuer 30 secondes.",
+      "Verser le vin blanc en grattant bien les sucs du fond, et laisser réduire jusqu'à ce qu'il n'en reste presque plus.",
+      "Ajouter le bouillon et laisser réduire de moitié, environ 3 minutes. Ajouter la crème et la muscade, et laisser frémir 2 minutes à feu doux.",
+      "Hors du feu, attendre 30 secondes, puis ajouter les deux tiers du parmesan en trois fois, en remuant entre chaque ajout jusqu'à ce qu'il fonde.",
+      "Ajouter les linguine égouttées et les épinards, et remettre sur feu doux 1 minute en mélangeant, avec un peu d'eau de cuisson pour que la sauce soit crémeuse et brillante. Les épinards doivent juste tomber.",
+      "Trancher le poulet et le poser sur les pâtes avec son jus. Parsemer du reste de parmesan, de persil ciselé, de zeste de citron et d'un tour de poivre."
+    ],
+    astuce: "Ne pas saler le poulet après la saumure : il l'est déjà à cœur. Le parmesan doit toujours être ajouté hors du feu et petit à petit, sinon il fait des grumeaux. Sans vin blanc, déglacer avec un peu de bouillon et 1 c. à café de jus de citron. Version crevettes : remplacer le poulet par 250 g de crevettes décortiquées, sans saumure, saisies 1 minute par face."
+  },
+
+
+  
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
