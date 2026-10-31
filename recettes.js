@@ -787,7 +787,49 @@ const RECETTES = [
   },
 
 
-  
+    {
+    id: "cookies-halloween-craqueles-au-coeur-cheesecake",
+    titre: "Cookies Halloween craquelés au cœur cheesecake",
+    emoji: "🎃",
+    categorie: "Dessert",
+    tags: ["végétarien"],
+    temps: 115,
+    difficulte: 2,
+    portions: 12,
+    proteines: 5,
+    kcal: 330,
+    ingredients: [
+      { qte: 115, unite: "g", nom: "Philadelphia" },
+      { qte: 25, unite: "g", nom: "sucre en poudre (fourrage)" },
+      { qte: 15, unite: "g", nom: "sucre glace (fourrage)" },
+      { qte: 15, unite: "g", nom: "cacao en poudre (fourrage)" },
+      { qte: 0.5, unite: "c. à café", nom: "extrait de vanille (fourrage)" },
+      { qte: 1, unite: "pincée", nom: "sel (fourrage)" },
+      { qte: 115, unite: "g", nom: "beurre mou" },
+      { qte: 160, unite: "g", nom: "cassonade" },
+      { qte: 50, unite: "g", nom: "sucre en poudre (pâte)" },
+      { qte: 1, unite: "", nom: "œuf" },
+      { qte: 2, unite: "c. à café", nom: "extrait de vanille (pâte)" },
+      { qte: 0.5, unite: "c. à café", nom: "colorant alimentaire rouge en gel" },
+      { qte: 190, unite: "g", nom: "farine" },
+      { qte: 0.5, unite: "c. à café", nom: "bicarbonate alimentaire" },
+      { qte: 0.25, unite: "c. à café", nom: "sel" },
+      { qte: 170, unite: "g", nom: "mini pépites de chocolat" },
+      { qte: 45, unite: "g", nom: "cacao en poudre non sucré (enrobage)" },
+      { qte: 10, unite: "g", nom: "sucre glace (enrobage)" }
+    ],
+    etapes: [
+      "Fourrage : mélanger le Philadelphia, le sucre en poudre, le sucre glace, le cacao, la vanille et la pincée de sel jusqu'à obtenir une crème lisse. Former 12 petites boules d'environ 15 g sur une plaque recouverte de papier cuisson et les congeler au moins 1 heure.",
+      "Pâte : fouetter le beurre mou avec la cassonade et le sucre jusqu'à obtenir un mélange crémeux. Ajouter l'œuf, la vanille et le colorant, et mélanger jusqu'à obtenir un rouge bien vif : la cuisson le fera pâlir.",
+      "Ajouter la farine, le bicarbonate et le sel, et mélanger juste jusqu'à ce qu'il n'y ait plus de farine visible. Incorporer les pépites de chocolat. Placer la pâte 30 minutes au frigo.",
+      "Diviser la pâte en 12 portions d'environ 65 g. Aplatir chaque portion dans la main, poser une boule de fourrage congelée au centre et refermer la pâte autour en soudant bien, pour que rien ne s'échappe à la cuisson.",
+      "Mélanger le cacao et le sucre glace de l'enrobage dans une assiette creuse, et y rouler chaque boule en la couvrant généreusement.",
+      "Placer les cookies 15 minutes au congélateur. Pendant ce temps, préchauffer le four à 180 °C.",
+      "Enfourner sur une plaque recouverte de papier cuisson, en espaçant bien les cookies, en deux fournées si besoin. Cuire 11 à 12 minutes : ils doivent craquer en surface et rester tendres au centre.",
+      "Laisser reposer 10 minutes sur la plaque avant de les manipuler : ils sont fragiles à chaud."
+    ],
+    astuce: "Le colorant en gel donne un rouge bien plus vif que le liquide, sans rendre la pâte collante. Le rendu sera brun très foncé ; pour un vrai noir, utiliser du cacao noir (black cocoa) pour l'enrobage. Se gardent 3 jours au frigo dans une boîte hermétique, à cause du cœur au fromage frais."
+  },
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
