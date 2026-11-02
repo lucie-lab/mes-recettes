@@ -830,6 +830,50 @@ const RECETTES = [
     ],
     astuce: "Le colorant en gel donne un rouge bien plus vif que le liquide, sans rendre la pâte collante. Le rendu sera brun très foncé ; pour un vrai noir, utiliser du cacao noir (black cocoa) pour l'enrobage. Se gardent 3 jours au frigo dans une boîte hermétique, à cause du cœur au fromage frais."
   },
+
+
+
+  {
+    id: "pates-a-la-vodka-et-burrata",
+    titre: "Pâtes à la vodka et burrata",
+    emoji: "🍅",
+    categorie: "Plat",
+    tags: ["végétarien"],
+    temps: 30,
+    difficulte: 1,
+    portions: 4,
+    proteines: 24,
+    kcal: 790,
+    ingredients: [
+      { qte: 400, unite: "g", nom: "rigatoni" },
+      { qte: 2, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 1, unite: "", nom: "échalote" },
+      { qte: 2, unite: "gousses", nom: "ail" },
+      { qte: 3, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 2, unite: "c. à soupe", nom: "vodka" },
+      { qte: 300, unite: "g", nom: "crème liquide entière" },
+      { qte: 50, unite: "g", nom: "parmesan râpé" },
+      { qte: 20, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "", nom: "burrata (ou 125 g de stracciatella)" },
+      { qte: 1, unite: "", nom: "petit bouquet de basilic" },
+      { qte: "", unite: "", nom: "Flocons de piment (facultatif, à part)" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "Mettre une grande casserole d'eau à chauffer. Hacher finement l'échalote et l'ail.",
+      "Chauffer l'huile d'olive dans une grande poêle à feu moyen-doux. Faire suer l'échalote 3 minutes, puis ajouter l'ail 1 minute, sans laisser colorer.",
+      "Ajouter le concentré de tomate et le cuire 3 à 4 minutes en remuant, jusqu'à ce qu'il fonce et prenne une couleur brique.",
+      "Verser la vodka en grattant bien le fond, et laisser réduire 1 minute.",
+      "Saler l'eau bouillante et cuire les rigatoni 1 minute de moins que le temps indiqué sur le paquet. Garder un bol d'eau de cuisson avant d'égoutter.",
+      "Pendant ce temps, ajouter la crème dans la poêle et laisser frémir 5 minutes à feu doux, jusqu'à ce que la sauce épaississe légèrement et devienne orange rosé.",
+      "Hors du feu, ajouter le parmesan en remuant jusqu'à ce qu'il fonde. Goûter, puis saler et poivrer.",
+      "Ajouter les pâtes égouttées et le beurre, et remettre 1 minute sur feu doux en mélangeant, avec un peu d'eau de cuisson, jusqu'à ce que la sauce soit brillante et nappe bien les pâtes.",
+      "Servir aussitôt, avec la burrata déchirée par-dessus, quelques feuilles de basilic, un filet d'huile d'olive et un tour de poivre. Proposer les flocons de piment à part."
+    ],
+    astuce: "Le concentré de tomate doit vraiment foncer avant la vodka : c'est lui qui donne toute la profondeur de la sauce. Sans vodka, déglacer avec 2 c. à soupe d'eau et 1 c. à café de jus de citron. Si la poêle est trop petite pour les pâtes, remettre la sauce dans la casserole vide et mélanger là."
+  },
+
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
