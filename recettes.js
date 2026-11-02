@@ -874,6 +874,50 @@ const RECETTES = [
   },
 
 
+  {
+    id: "pates-a-la-vodka-poulet-grille-et-burrata",
+    titre: "Pâtes à la vodka, poulet grillé et burrata",
+    emoji: "🍅",
+    categorie: "Plat",
+    tags: [],
+    temps: 35,
+    difficulte: 1,
+    portions: 4,
+    proteines: 47,
+    kcal: 900,
+    ingredients: [
+      { qte: 400, unite: "g", nom: "blancs de poulet" },
+      { qte: 1, unite: "c. à café", nom: "origan séché (ou d'herbes de Provence)" },
+      { qte: 400, unite: "g", nom: "rigatoni" },
+      { qte: 3, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 1, unite: "", nom: "échalote" },
+      { qte: 2, unite: "gousses", nom: "ail" },
+      { qte: 3, unite: "c. à soupe", nom: "concentré de tomate" },
+      { qte: 2, unite: "c. à soupe", nom: "vodka" },
+      { qte: 300, unite: "g", nom: "crème liquide entière" },
+      { qte: 50, unite: "g", nom: "parmesan râpé" },
+      { qte: 20, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "", nom: "burrata (ou 125 g de stracciatella)" },
+      { qte: 1, unite: "", nom: "petit bouquet de basilic" },
+      { qte: "", unite: "", nom: "Flocons de piment (facultatif, à part)" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "Mettre une grande casserole d'eau à chauffer. Ouvrir les blancs de poulet en deux dans l'épaisseur et les assaisonner de sel, de poivre et d'origan. Hacher finement l'échalote et l'ail.",
+      "Chauffer 1 c. à soupe d'huile dans une grande poêle à feu moyen-vif et dorer le poulet 4 à 5 minutes par face, sans le bouger, jusqu'à ce qu'il ne soit plus rosé à cœur. Le réserver sur une assiette.",
+      "Baisser à feu moyen-doux et ajouter le reste de l'huile dans la même poêle, sans la laver. Faire suer l'échalote 3 minutes, puis ajouter l'ail 1 minute, sans laisser colorer.",
+      "Ajouter le concentré de tomate et le cuire 3 à 4 minutes en remuant, jusqu'à ce qu'il fonce et prenne une couleur brique.",
+      "Verser la vodka en grattant bien les sucs du poulet au fond de la poêle, et laisser réduire 1 minute.",
+      "Saler l'eau bouillante et cuire les rigatoni 1 minute de moins que le temps indiqué sur le paquet. Garder un bol d'eau de cuisson avant d'égoutter.",
+      "Pendant ce temps, ajouter la crème dans la poêle et laisser frémir 5 minutes à feu doux, jusqu'à ce que la sauce épaississe légèrement et devienne orange rosé.",
+      "Hors du feu, ajouter le parmesan en remuant jusqu'à ce qu'il fonde. Goûter, puis saler et poivrer.",
+      "Ajouter les pâtes égouttées et le beurre, et remettre 1 minute sur feu doux en mélangeant, avec un peu d'eau de cuisson, jusqu'à ce que la sauce soit brillante et nappe bien les pâtes.",
+      "Trancher le poulet. Servir les pâtes avec le poulet et son jus, la burrata déchirée par-dessus, quelques feuilles de basilic, un filet d'huile d'olive et un tour de poivre. Proposer les flocons de piment à part."
+    ],
+    astuce: "Le concentré de tomate doit vraiment foncer avant la vodka : c'est lui qui donne toute la profondeur de la sauce. Sans vodka, déglacer avec 2 c. à soupe d'eau et 1 c. à café de jus de citron. Version végétarienne : supprimer le poulet. Si la poêle est trop petite pour les pâtes, remettre la sauce dans la casserole vide et mélanger là."
+  },
+
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
