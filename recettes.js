@@ -963,6 +963,50 @@ const RECETTES = [
     ],
     astuce: "La semoule et la bolognaise peuvent être préparées la veille et gardées au frigo : il ne reste plus qu'à découper, monter et gratiner. Si la semoule est trop molle pour être découpée, prolonger son passage au frigo. Version végétarienne : remplacer la bolognaise par une sauce tomate simple. Se garde 2 jours au frigo et se réchauffe au four."
   },
+
+
+  {
+    id: "gnocchis-a-la-romaine-gratines",
+    titre: "Gnocchis à la romaine gratinés",
+    emoji: "🧀",
+    categorie: "Plat",
+    tags: ["végétarien"],
+    temps: 115,
+    difficulte: 2,
+    portions: 4,
+    proteines: 27,
+    kcal: 690,
+    ingredients: [
+      { qte: 1, unite: "", nom: "litre de lait entier" },
+      { qte: 250, unite: "g", nom: "semoule de blé dur fine" },
+      { qte: 60, unite: "g", nom: "beurre demi-sel (30 g pour la semoule, 30 g pour le gratin)" },
+      { qte: 2, unite: "", nom: "jaunes d'œufs" },
+      { qte: 100, unite: "g", nom: "Comté râpé" },
+      { qte: 30, unite: "g", nom: "parmesan râpé" },
+      { qte: 1, unite: "c. à café", nom: "sel" },
+      { qte: 2, unite: "pincées", nom: "noix de muscade" },
+      { qte: "", unite: "", nom: "Poivre" },
+      { qte: 400, unite: "g", nom: "coulis de tomate" },
+      { qte: 1, unite: "gousse", nom: "ail" },
+      { qte: 1, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: "", unite: "", nom: "Quelques feuilles de basilic" }
+    ],
+    etapes: [
+      "Dans une grande casserole, porter le lait à frémissement avec le sel, la muscade et un tour de poivre.",
+      "Verser la semoule en pluie fine en fouettant sans arrêt. Baisser à feu doux et cuire 6 à 8 minutes en remuant avec une spatule, jusqu'à ce que la semoule soit très épaisse et se décolle des bords de la casserole.",
+      "Hors du feu, ajouter 30 g de beurre et la moitié du Comté, et mélanger jusqu'à ce qu'ils fondent. Laisser tiédir 2 minutes, puis incorporer les jaunes d'œufs un par un en remuant vivement.",
+      "Étaler la semoule sur une plaque recouverte de papier cuisson, sur environ 1 cm d'épaisseur, en lissant avec une spatule mouillée. Laisser refroidir, puis placer au moins 1 heure au frigo.",
+      "Pendant ce temps, préparer la sauce : faire revenir l'ail écrasé 1 minute dans l'huile d'olive, ajouter le coulis, saler, poivrer et laisser mijoter 10 minutes à feu doux.",
+      "Préchauffer le four à 220 °C. Découper des disques dans la semoule froide avec un verre d'environ 6 cm, en le trempant dans l'eau entre chaque disque.",
+      "Beurrer un plat à gratin et répartir les chutes de semoule au fond. Disposer les disques par-dessus en les faisant se chevaucher, comme des tuiles.",
+      "Faire fondre le reste du beurre et en arroser les gnocchis. Parsemer du reste de Comté et du parmesan.",
+      "Enfourner 20 à 25 minutes, puis passer 2 à 3 minutes sous le gril, en surveillant, jusqu'à ce que le dessus soit bien doré et croustillant.",
+      "Servir sur la sauce tomate chaude, avec quelques feuilles de basilic."
+    ],
+    astuce: "La semoule peut être préparée la veille et gardée au frigo, filmée : il ne reste plus qu'à découper et gratiner. Si la semoule est trop molle pour être découpée, prolonger son passage au frigo. Le Comté et le parmesan sont fabriqués avec de la présure animale : pour une version strictement végétarienne, choisir des fromages qui portent la mention végétarien. Se garde 2 jours au frigo et se réchauffe au four."
+  },
+
+
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
