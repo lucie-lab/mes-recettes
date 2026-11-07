@@ -1006,7 +1006,41 @@ const RECETTES = [
     astuce: "La semoule peut être préparée la veille et gardée au frigo, filmée : il ne reste plus qu'à découper et gratiner. Si la semoule est trop molle pour être découpée, prolonger son passage au frigo. Le Comté et le parmesan sont fabriqués avec de la présure animale : pour une version strictement végétarienne, choisir des fromages qui portent la mention végétarien. Se garde 2 jours au frigo et se réchauffe au four."
   },
 
-
+  {
+    id: "cookies-moelleux-a-la-vergeoise-et-chocolat-noir",
+    titre: "Cookies moelleux à la vergeoise et chocolat noir",
+    emoji: "🍯",
+    categorie: "Dessert",
+    tags: ["végétarien"],
+    temps: 60,
+    difficulte: 1,
+    portions: 14,
+    proteines: 3,
+    kcal: 160,
+    ingredients: [
+      { qte: 110, unite: "g", nom: "beurre demi-sel" },
+      { qte: 150, unite: "g", nom: "vergeoise brune (ou de cassonade)" },
+      { qte: 1, unite: "", nom: "œuf" },
+      { qte: 1, unite: "", nom: "jaune d'œuf" },
+      { qte: 0.5, unite: "c. à café", nom: "extrait de vanille" },
+      { qte: 180, unite: "g", nom: "farine" },
+      { qte: 0.5, unite: "c. à café", nom: "bicarbonate de soude alimentaire" },
+      { qte: 1, unite: "pincée", nom: "sel" },
+      { qte: 80, unite: "g", nom: "chocolat noir à 85 %" },
+      { qte: 1, unite: "pincée", nom: "fleur de sel" }
+    ],
+    etapes: [
+      "Faire fondre le beurre et le laisser tiédir 5 minutes : il doit être liquide, mais pas chaud.",
+      "Dans un saladier, fouetter le beurre fondu avec la vergeoise jusqu'à ce que le mélange soit lisse et brillant. Ajouter l'œuf, le jaune et la vanille, et fouetter 1 minute.",
+      "Ajouter la farine, le bicarbonate et le sel, et mélanger juste jusqu'à ce qu'il n'y ait plus de farine visible, sans trop travailler la pâte.",
+      "Hacher grossièrement le chocolat au couteau et l'incorporer à la pâte, en gardant quelques morceaux pour le dessus.",
+      "Couvrir et placer la pâte 30 minutes au frigo.",
+      "Préchauffer le four à 180 °C. Former des boules d'environ 40 g et les poser sur une plaque recouverte de papier cuisson, en les espaçant d'au moins 5 cm.",
+      "Piquer quelques morceaux de chocolat sur le dessus et enfourner 9 à 10 minutes : les bords doivent être dorés et le centre encore un peu cru.",
+      "À la sortie du four, parsemer d'un peu de fleur de sel et laisser reposer 10 minutes sur la plaque : les cookies finissent de cuire en refroidissant."
+    ],
+    astuce: "La vergeoise brune donne un goût plus caramélisé que la blonde. Pour un goût encore plus profond, laisser la pâte reposer une nuit au frigo, bien couverte. Sans bicarbonate alimentaire, utiliser 2 c. à café rases de levure chimique : les cookies seront un peu plus gonflés. Se gardent 4 à 5 jours dans une boîte hermétique."
+  },
   
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
