@@ -22,6 +22,40 @@ const RECETTES = [
   // ---------------- Riches en protéines ----------------
 
 
+
+  {
+    id: "fondant-baulois-au-beurre-demi-sel",
+    titre: "Fondant baulois au beurre demi-sel",
+    emoji: "🌊",
+    categorie: "Dessert",
+    tags: ["végétarien"],
+    temps: 50,
+    difficulte: 1,
+    portions: 10,
+    proteines: 5,
+    kcal: 370,
+    ingredients: [
+      { qte: 200, unite: "g", nom: "chocolat noir à 60-70 %" },
+      { qte: 180, unite: "g", nom: "beurre demi-sel" },
+      { qte: 5, unite: "", nom: "œufs" },
+      { qte: 150, unite: "g", nom: "sucre" },
+      { qte: 40, unite: "g", nom: "farine" },
+      { qte: 2, unite: "c. à soupe", nom: "caramel au beurre salé" },
+      { qte: 1, unite: "pincée", nom: "fleur de sel" }
+    ],
+    etapes: [
+      "Préchauffer le four à 200 °C. Beurrer un moule de 20 cm et le chemiser de papier cuisson.",
+      "Faire fondre le chocolat et le beurre ensemble, au bain-marie ou au micro-ondes par tranches de 30 secondes, en remuant. Laisser tiédir.",
+      "Dans un saladier, fouetter les œufs et le sucre à la main juste jusqu'à ce que le mélange soit homogène, sans le faire mousser.",
+      "Ajouter le chocolat fondu et mélanger doucement, puis incorporer le caramel au beurre salé.",
+      "Ajouter la farine et mélanger juste jusqu'à ce qu'elle ait disparu.",
+      "Verser dans le moule et enfourner 5 minutes à 200 °C.",
+      "Baisser le four à 120 °C, sans l'ouvrir, et poursuivre la cuisson 35 minutes. À la sortie du four, le centre doit encore trembler : c'est normal.",
+      "Laisser refroidir complètement, puis placer au frigo au moins 4 heures, idéalement une nuit.",
+      "Sortir le fondant 30 minutes avant de servir, ou passer chaque part 15 à 20 secondes au micro-ondes pour une texture encore plus fondante. Parsemer de quelques grains de fleur de sel."
+    ],
+    astuce: "Le beurre demi-sel est indispensable : c'est lui qui donne le goût de caramel salé, comme dans le fondant baulois d'origine. Ne pas faire mousser les œufs, sinon le gâteau gonfle puis craque. Dans un moule de 24 cm, réduire la cuisson à 120 °C à 25-30 minutes. Se garde 4 jours au frigo."
+  },
   
 
     {
