@@ -1042,6 +1042,52 @@ const RECETTES = [
     astuce: "La vergeoise brune donne un goût plus caramélisé que la blonde. Pour un goût encore plus profond, laisser la pâte reposer une nuit au frigo, bien couverte. Sans bicarbonate alimentaire, utiliser 2 c. à café rases de levure chimique : les cookies seront un peu plus gonflés. Se gardent 4 à 5 jours dans une boîte hermétique."
   },
   
+
+
+  {
+    id: "tagliatelles-cremeuses-aux-champignons-et-au-miso",
+    titre: "Tagliatelles crémeuses aux champignons et au miso",
+    emoji: "🍄",
+    categorie: "Plat",
+    tags: [],
+    temps: 35,
+    difficulte: 1,
+    portions: 5,
+    proteines: 21,
+    kcal: 650,
+    ingredients: [
+      { qte: 500, unite: "g", nom: "tagliatelles" },
+      { qte: 600, unite: "g", nom: "champignons mélangés (girolles, pleurotes, champignons de Paris)" },
+      { qte: 4, unite: "", nom: "échalotes" },
+      { qte: 2, unite: "gousses", nom: "ail" },
+      { qte: 30, unite: "g", nom: "beurre" },
+      { qte: 1, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 3, unite: "", nom: "brins de thym" },
+      { qte: 1, unite: "c. à soupe", nom: "pâte miso blanche" },
+      { qte: 1, unite: "", nom: "cube de bouillon de bœuf" },
+      { qte: 200, unite: "g", nom: "eau chaude" },
+      { qte: 200, unite: "g", nom: "crème fraîche entière" },
+      { qte: 50, unite: "g", nom: "parmesan râpé" },
+      { qte: 0.5, unite: "", nom: "citron (zeste)" },
+      { qte: 1, unite: "", nom: "petit bouquet de ciboulette" },
+      { qte: "", unite: "", nom: "Sel et poivre" }
+    ],
+    etapes: [
+      "Mettre une grande casserole d'eau à chauffer. Nettoyer les champignons avec un papier humide, sans les passer sous l'eau, puis les couper en morceaux de taille égale. Émincer les échalotes et hacher l'ail.",
+      "Dissoudre le cube de bouillon et le miso dans l'eau chaude, en fouettant jusqu'à ce qu'il n'y ait plus de morceaux.",
+      "Chauffer l'huile et la moitié du beurre dans une grande poêle à feu vif. Ajouter la moitié des champignons en une seule couche et les laisser dorer 3 minutes sans y toucher, puis les faire sauter 2 minutes. Réserver et recommencer avec le reste.",
+      "Baisser à feu moyen, ajouter le reste du beurre, les échalotes et le thym, et cuire 3 minutes. Ajouter l'ail et remuer 1 minute.",
+      "Remettre tous les champignons dans la poêle, verser le bouillon au miso en grattant bien les sucs du fond, et laisser réduire de moitié, environ 4 minutes.",
+      "Saler l'eau bouillante et cuire les tagliatelles 1 minute de moins que le temps indiqué sur le paquet. Garder un bol d'eau de cuisson avant d'égoutter.",
+      "Baisser à feu doux, ajouter la crème fraîche et laisser frémir 2 minutes, sans faire bouillir. Retirer le thym.",
+      "Hors du feu, ajouter le parmesan en remuant jusqu'à ce qu'il fonde. Goûter avant de saler : le miso et le bouillon le sont déjà.",
+      "Ajouter les tagliatelles et remettre 1 minute sur feu doux en mélangeant, avec un peu d'eau de cuisson pour que la sauce soit brillante et nappe bien les pâtes.",
+      "Servir avec la ciboulette ciselée, le zeste de citron et un tour de poivre."
+    ],
+    astuce: "Ne jamais surcharger la poêle avec les champignons : en deux fois, ils dorent ; en une fois, ils bouillent. Version végétarienne : remplacer le cube de bœuf par un cube de bouillon de légumes, le miso apporte déjà beaucoup de profondeur. Le miso blanc est plus doux que le rouge, à doser selon les goûts."
+  },
+
+
   
   // ↑ Colle tes nouvelles recettes juste au-dessus de cette ligne
 ];
