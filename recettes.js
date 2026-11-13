@@ -21,7 +21,47 @@ const RECETTES = [
 
   // ---------------- Riches en protéines ----------------
 
-
+  {
+    id: "gratin-de-gnocchis-butternut-chevre-et-miel",
+    titre: "Gratin de gnocchis, butternut, chèvre et miel",
+    emoji: "🎃",
+    categorie: "Plat",
+    tags: ["automne"],
+    temps: 60,
+    difficulte: 1,
+    portions: 4,
+    proteines: 30,
+    kcal: 950,
+    ingredients: [
+      { qte: 700, unite: "g", nom: "gnocchis frais" },
+      { qte: 600, unite: "g", nom: "butternut épluchée" },
+      { qte: 200, unite: "g", nom: "lardons fumés" },
+      { qte: 200, unite: "g", nom: "chèvre frais" },
+      { qte: 180, unite: "g", nom: "bûche de chèvre" },
+      { qte: 150, unite: "g", nom: "crème liquide entière" },
+      { qte: 1, unite: "c. à soupe", nom: "moutarde à l'ancienne" },
+      { qte: 1, unite: "gousse", nom: "ail" },
+      { qte: 2, unite: "c. à soupe", nom: "miel" },
+      { qte: 40, unite: "g", nom: "cerneaux de noix" },
+      { qte: 1, unite: "c. à café", nom: "paprika fumé" },
+      { qte: 2, unite: "c. à soupe", nom: "huile d'olive" },
+      { qte: 1, unite: "c. à soupe", nom: "thym" },
+      { qte: 1, unite: "pincée", nom: "muscade" },
+      { qte: "", unite: "", nom: "Sel, poivre" }
+    ],
+    etapes: [
+      "Préchauffer le four à 200 °C. Éplucher la butternut, retirer les graines et la couper en cubes de 2 cm.",
+      "Mélanger les cubes avec 1 c. à soupe d'huile, le paprika fumé, la moitié du thym, du sel et du poivre. Les étaler en une seule couche sur la plaque du four et rôtir 30 à 35 min, en les retournant à mi-cuisson : ils doivent être fondants et bien dorés sur les bords.",
+      "Pendant ce temps, faire griller les noix à sec dans la grande poêle 3 à 4 min, en remuant. Les concasser grossièrement et les réserver.",
+      "Dans la même poêle, faire dorer les lardons sans matière grasse 6 à 8 min à feu moyen. Les réserver en laissant leur gras dans la poêle.",
+      "Ajouter le reste d'huile dans la poêle et y faire dorer les gnocchis crus, sans les cuire à l'eau avant, 8 à 10 min à feu moyen-vif. Les remuer peu pour qu'ils colorent. Si la poêle est trop pleine, procéder en deux fois.",
+      "Dans un bol, écraser le chèvre frais avec la crème, l'ail râpé, la moutarde, la muscade et du poivre. Saler très peu : les lardons et la bûche le sont déjà.",
+      "Dans le plat à four, mélanger les gnocchis, la butternut, les lardons et la sauce au chèvre. Couper la bûche en rondelles et les répartir sur le dessus.",
+      "Enfourner 15 min à 200 °C, jusqu'à ce que le chèvre soit doré. Pour plus de gratiné, finir 2 à 3 min sous le gril en surveillant.",
+      "Faire tiédir le miel 10 secondes au micro-ondes avec le reste du thym. À la sortie du four, en verser un filet sur le gratin, parsemer de noix et donner un tour de poivre. Laisser reposer 5 min avant de servir."
+    ],
+    astuce: "Une butternut d'environ 1 kg donne à peu près 700 g de chair épluchée. Si vous n'aimez pas le chèvre très marqué, utilisez seulement une demi-bûche. Le thym peut être remplacé par du romarin ou de la sauge. C'est un plat riche : une salade verte bien vinaigrée à côté l'équilibre parfaitement."
+  },
 
   {
     id: "fondant-baulois-au-beurre-demi-sel",
